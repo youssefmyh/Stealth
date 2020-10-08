@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\YProjects\\Stealth\\Stealth\\Source\\Stealth\\Stealth.Build.cs",
+		"D:\\YProjects\\Stealth\\Stealth\\Source\\Stealth.Target.cs",
+		"D:\\YProjects\\Stealth\\Stealth\\Source\\StealthEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.1"
+}

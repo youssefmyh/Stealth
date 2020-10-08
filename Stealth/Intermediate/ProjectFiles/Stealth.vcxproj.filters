@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Stealth.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{05827685-C339-41FD-B1C2-D73DA1BA241B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Stealth.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\StealthEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{71A04868-0014-4937-B0BC-A1E0D8A6C355}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Stealth">
+      <UniqueIdentifier>{A67AE30B-4E6C-4F21-8374-810500A49383}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Stealth\AIPatrol.cpp">
+      <Filter>Source\Stealth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stealth\AIPatrol.h">
+      <Filter>Source\Stealth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Stealth\AIPatrolController.cpp">
+      <Filter>Source\Stealth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stealth\AIPatrolController.h">
+      <Filter>Source\Stealth</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Stealth\Stealth.Build.cs">
+      <Filter>Source\Stealth</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Stealth\Stealth.cpp">
+      <Filter>Source\Stealth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stealth\Stealth.h">
+      <Filter>Source\Stealth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Stealth\StealthCharacter.cpp">
+      <Filter>Source\Stealth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stealth\StealthCharacter.h">
+      <Filter>Source\Stealth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Stealth\StealthGameMode.cpp">
+      <Filter>Source\Stealth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stealth\StealthGameMode.h">
+      <Filter>Source\Stealth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Stealth\AIPatrolPoint.h">
+      <Filter>Source\Stealth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Stealth\AIPatrolPoint.cpp">
+      <Filter>Source\Stealth</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
