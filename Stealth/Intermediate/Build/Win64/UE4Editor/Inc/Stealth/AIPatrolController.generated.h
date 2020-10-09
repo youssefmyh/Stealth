@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STEALTH_AIPatrolController_generated_h
 
-#define Stealth_Source_Stealth_AIPatrolController_h_15_SPARSE_DATA
-#define Stealth_Source_Stealth_AIPatrolController_h_15_RPC_WRAPPERS
-#define Stealth_Source_Stealth_AIPatrolController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Stealth_Source_Stealth_AIPatrolController_h_15_INCLASS_NO_PURE_DECLS \
+#define Stealth_Source_Stealth_AIPatrolController_h_16_SPARSE_DATA
+#define Stealth_Source_Stealth_AIPatrolController_h_16_RPC_WRAPPERS
+#define Stealth_Source_Stealth_AIPatrolController_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Stealth_Source_Stealth_AIPatrolController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAIPatrolController(); \
 	friend struct Z_Construct_UClass_AAIPatrolController_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AAIPatrolController)
 
 
-#define Stealth_Source_Stealth_AIPatrolController_h_15_INCLASS \
+#define Stealth_Source_Stealth_AIPatrolController_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAAIPatrolController(); \
 	friend struct Z_Construct_UClass_AAIPatrolController_Statics; \
@@ -34,9 +34,9 @@ public: \
 	DECLARE_SERIALIZER(AAIPatrolController)
 
 
-#define Stealth_Source_Stealth_AIPatrolController_h_15_STANDARD_CONSTRUCTORS \
+#define Stealth_Source_Stealth_AIPatrolController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAIPatrolController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AAIPatrolController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAIPatrolController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAIPatrolController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAIPatrolController); \
@@ -47,9 +47,7 @@ private: \
 public:
 
 
-#define Stealth_Source_Stealth_AIPatrolController_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAIPatrolController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define Stealth_Source_Stealth_AIPatrolController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAIPatrolController(AAIPatrolController&&); \
@@ -57,31 +55,35 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAIPatrolController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAIPatrolController); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAIPatrolController)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAIPatrolController)
 
 
-#define Stealth_Source_Stealth_AIPatrolController_h_15_PRIVATE_PROPERTY_OFFSET
-#define Stealth_Source_Stealth_AIPatrolController_h_12_PROLOG
-#define Stealth_Source_Stealth_AIPatrolController_h_15_GENERATED_BODY_LEGACY \
+#define Stealth_Source_Stealth_AIPatrolController_h_16_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__LocationToGoKey() { return STRUCT_OFFSET(AAIPatrolController, LocationToGoKey); } \
+	FORCEINLINE static uint32 __PPO__PlayerKey() { return STRUCT_OFFSET(AAIPatrolController, PlayerKey); }
+
+
+#define Stealth_Source_Stealth_AIPatrolController_h_13_PROLOG
+#define Stealth_Source_Stealth_AIPatrolController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Stealth_Source_Stealth_AIPatrolController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Stealth_Source_Stealth_AIPatrolController_h_15_SPARSE_DATA \
-	Stealth_Source_Stealth_AIPatrolController_h_15_RPC_WRAPPERS \
-	Stealth_Source_Stealth_AIPatrolController_h_15_INCLASS \
-	Stealth_Source_Stealth_AIPatrolController_h_15_STANDARD_CONSTRUCTORS \
+	Stealth_Source_Stealth_AIPatrolController_h_16_PRIVATE_PROPERTY_OFFSET \
+	Stealth_Source_Stealth_AIPatrolController_h_16_SPARSE_DATA \
+	Stealth_Source_Stealth_AIPatrolController_h_16_RPC_WRAPPERS \
+	Stealth_Source_Stealth_AIPatrolController_h_16_INCLASS \
+	Stealth_Source_Stealth_AIPatrolController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Stealth_Source_Stealth_AIPatrolController_h_15_GENERATED_BODY \
+#define Stealth_Source_Stealth_AIPatrolController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Stealth_Source_Stealth_AIPatrolController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Stealth_Source_Stealth_AIPatrolController_h_15_SPARSE_DATA \
-	Stealth_Source_Stealth_AIPatrolController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Stealth_Source_Stealth_AIPatrolController_h_15_INCLASS_NO_PURE_DECLS \
-	Stealth_Source_Stealth_AIPatrolController_h_15_ENHANCED_CONSTRUCTORS \
+	Stealth_Source_Stealth_AIPatrolController_h_16_PRIVATE_PROPERTY_OFFSET \
+	Stealth_Source_Stealth_AIPatrolController_h_16_SPARSE_DATA \
+	Stealth_Source_Stealth_AIPatrolController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Stealth_Source_Stealth_AIPatrolController_h_16_INCLASS_NO_PURE_DECLS \
+	Stealth_Source_Stealth_AIPatrolController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

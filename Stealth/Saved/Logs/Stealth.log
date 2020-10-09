@@ -977,3 +977,573 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.08-15.35.05:882][959]LogTemp: Resetting audio stream to device id 
 [2020.10.08-15.35.05:898][959]LogAudioMixer: Display: 0: FrontLeft
 [2020.10.08-15.35.05:899][959]LogAudioMixer: Display: 1: FrontRight
+[2020.10.08-16.13.20:052][791]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.08-16.13.20:052][791]LogTemp: Resetting audio stream to device id 
+[2020.10.09-07.24.29:952][776]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-07.24.31:071][776]LogTemp: Resetting audio stream to device id 
+[2020.10.09-07.24.31:082][776]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-07.24.31:082][776]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-09.08.04:414][201]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-09.08.04:418][201]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.08.47:120][327]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-09.08.48:840][327]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.08.48:859][327]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-09.08.48:859][327]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-09.16.13:378][648]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-09.16.13:378][648]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.16.24:918][679]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-09.16.25:158][679]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.16.25:181][679]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-09.16.25:181][679]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-09.18.57:490][122]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.09-09.41.07:007][ 49]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-09.41.07:007][ 49]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.41.08:767][ 51]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-09.41.08:936][ 51]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.41.08:954][ 51]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-09.41.08:954][ 51]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.13.29:630][780]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-10.13.29:630][780]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.13.31:385][782]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-10.13.32:206][782]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.13.32:223][782]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.13.32:223][782]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.21.04:968][118]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-10.21.04:968][118]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.21.21:740][165]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-10.21.21:956][165]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.21.21:969][165]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.21.21:969][165]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.00:135][845]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-10.42.00:136][845]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.00:311][846]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-10.42.00:557][846]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.00:570][846]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.00:570][846]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.05:890][847]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.05:920][847]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.05:920][847]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.11:018][848]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.11:038][848]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.11:038][848]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.16:133][849]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.16:153][849]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.16:153][849]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.21:271][850]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.21:290][850]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.21:290][850]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.26:367][850]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x80070490: Element not found. (line: 1171)
+[2020.10.09-10.42.26:378][851]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.34:396][871]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-10.42.34:609][871]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.34:615][871]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.34:615][871]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-13.51.34:884][663]LogSlate: Window 'AIPatrolBT' being destroyed
+[2020.10.09-13.51.45:751][689]Candidate modules for hot reload:
+[2020.10.09-13.51.45:751][689]  Stealth
+[2020.10.09-13.51.45:811][689]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1728 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-13.51.45:908][689]Warning: Starting HotReload took  1.1s.
+[2020.10.09-13.51.46:521][689]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.09-13.51.47:072][729]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.09-13.52.04:279][419]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 5:52:03 PM
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Building 3 actions with 6 processes...
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:   [1/3] UE4Editor-Stealth-1728.lib
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1728.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1728.exp
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:   [2/3] UE4Editor-Stealth-1728.dll
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1728.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1728.suppressed.exp
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:   [3/3] StealthEditor.target
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Total time in Parallel executor: 6.65 seconds
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Total execution time: 9.50 seconds
+[2020.10.09-13.52.04:384][419]LogMainFrame: MainFrame: Module compiling took 19.264 seconds
+[2020.10.09-13.52.06:464][419]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.1429 seconds. Added 5 classes and 2 folders.
+[2020.10.09-13.52.06:579][419]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.09-13.52.07:924][419]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 3432 classes and 823 folders.
+[2020.10.09-13.52.07:969][419]Display: HotReload took 23.2s.
+[2020.10.09-13.52.14:945][931]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.52.30:782][220]LogSlate: Window 'BP_AIPatrol' being destroyed
+[2020.10.09-13.52.31:280][220]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.09-13.52.31:396][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.09-13.52.32:274][220]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.52.36:789][271]LogSlate: Took 0.098093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.09-13.52.56:452][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BlueprintExtension/BP_AIPatrol" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset" SILENT=true
+[2020.10.09-13.52.57:312][610]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/BP_AIPatrol9067CB5049A6956F03136BA918735FC6.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset'
+[2020.10.09-13.52.57:972][610]AssetCheck: New page: Asset Save: BP_AIPatrol
+[2020.10.09-13.52.57:972][610]LogContentValidation: Display: Validating Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.54.31:414][415]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.09-13.54.54:287][575]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.09-13.54.57:648][593]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.09-13.55.06:453][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BlueprintExtension/BP_AIPatrol" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset" SILENT=true
+[2020.10.09-13.55.06:597][889]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/BP_AIPatrol00472B9846CDB2C33465878A06497C32.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset'
+[2020.10.09-13.55.06:611][889]AssetCheck: New page: Asset Save: BP_AIPatrol
+[2020.10.09-13.55.06:611][889]LogContentValidation: Display: Validating Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.55.22:168][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BlueprintExtension/BP_AIPatrol" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset" SILENT=true
+[2020.10.09-13.55.22:177][365]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/BP_AIPatrol0A91867B44417B72F5A007AF39D23196.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset'
+[2020.10.09-13.55.22:200][365]AssetCheck: New page: Asset Save: BP_AIPatrol
+[2020.10.09-13.55.22:200][365]LogContentValidation: Display: Validating Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.55.30:382][618]LogSlate: Window 'BP_AIPatrol' being destroyed
+[2020.10.09-13.55.30:393][618]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.09-13.55.30:393][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.09-13.55.32:317][806]Candidate modules for hot reload:
+[2020.10.09-13.55.32:317][806]  Stealth
+[2020.10.09-13.55.32:317][806]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1211 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-13.55.32:320][806]Warning: Starting HotReload took  0.0s.
+[2020.10.09-13.55.34:581][ 28]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 5:55:34 PM
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Building 3 actions with 6 processes...
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:   [1/3] UE4Editor-Stealth-1211.lib
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1211.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1211.exp
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:   [2/3] UE4Editor-Stealth-1211.dll
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1211.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1211.suppressed.exp
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:   [3/3] StealthEditor.target
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Total time in Parallel executor: 1.30 seconds
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Total execution time: 2.17 seconds
+[2020.10.09-13.55.34:582][ 28]LogMainFrame: MainFrame: Module compiling took 2.266 seconds
+[2020.10.09-13.55.34:729][ 28]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.10.09-13.55.34:734][ 28]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.09-13.55.34:905][ 28]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3432 classes and 823 folders.
+[2020.10.09-13.55.34:905][ 28]Display: HotReload took  2.6s.
+[2020.10.09-13.56.32:632][225]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Stealth.AIPatrolController
+[2020.10.09-13.57.48:659][835]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-13.57.48:659][835]LogTemp: Resetting audio stream to device id 
+[2020.10.09-13.57.51:350][839]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-13.57.52:573][839]LogTemp: Resetting audio stream to device id 
+[2020.10.09-13.57.52:590][839]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-13.57.52:590][839]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-14.02.18:136][757]Candidate modules for hot reload:
+[2020.10.09-14.02.18:136][757]  Stealth
+[2020.10.09-14.02.18:136][757]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,7401 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.02.18:138][757]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.09.38:604][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.09-14.11.05:923][974]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 6:11:14 PM
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.09-14.11.14:286][302]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Reflection code generated for StealthEditor in 63.0739103 seconds
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Building 5 actions with 6 processes...
+[2020.10.09-14.11.14:286][302]LogMainFrame: MainFrame: Module compiling took 536.151 seconds
+[2020.10.09-14.11.14:311][302]Warning: HotReload failed, recompile failed
+[2020.10.09-14.11.17:005][490]LogSlate: Took 0.055778 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.09-14.11.19:522][772]Candidate modules for hot reload:
+[2020.10.09-14.11.19:522][772]  Stealth
+[2020.10.09-14.11.19:522][772]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,2332 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.11.19:524][772]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 6:11:35 PM
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.09-14.11.35:190][491]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Reflection code generated for StealthEditor in 6.7522074 seconds
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Building 6 actions with 6 processes...
+[2020.10.09-14.11.35:190][491]LogMainFrame: MainFrame: Module compiling took 15.674 seconds
+[2020.10.09-14.11.35:190][491]Warning: HotReload failed, recompile failed
+[2020.10.09-14.13.40:662][232]Candidate modules for hot reload:
+[2020.10.09-14.13.40:662][232]  Stealth
+[2020.10.09-14.13.40:662][232]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,4343 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.13.40:664][232]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 6:14:38 PM
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Reflection code generated for StealthEditor in 6.4622482 seconds
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Building 6 actions with 6 processes...
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   [1/6] AIPatrolController.cpp
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(36) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   [2/6] AIPatrolController.gen.cpp
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(36) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   [3/6] Stealth.init.gen.cpp
+[2020.10.09-14.14.38:244][ 54]LogMainFrame: MainFrame: Module compiling took 57.585 seconds
+[2020.10.09-14.14.38:245][ 54]Warning: HotReload failed, recompile failed
+[2020.10.09-14.49.52:247][130]Candidate modules for hot reload:
+[2020.10.09-14.49.52:247][130]  Stealth
+[2020.10.09-14.49.52:247][130]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1151 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.49.52:249][130]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.49.55:540][388]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 6:49:55 PM
+[2020.10.09-14.49.55:541][388]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-14.49.55:541][388]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-14.49.55:541][388]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-14.49.55:541][388]CompilerResultsLog: Building 5 actions with 6 processes...
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:   [1/5] AIPatrolController.cpp
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(36) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:   [2/5] AIPatrolController.gen.cpp
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(36) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
+[2020.10.09-14.49.55:541][388]LogMainFrame: MainFrame: Module compiling took 3.297 seconds
+[2020.10.09-14.49.55:541][388]Warning: HotReload failed, recompile failed
+[2020.10.09-14.53.18:833][242]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:836][242]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:848][243]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:857][244]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:867][245]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:878][246]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:889][247]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:899][248]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:910][249]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:920][250]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:930][251]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:942][252]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:953][253]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:965][254]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:976][255]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:987][256]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:997][257]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:008][258]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:017][259]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:028][260]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:039][261]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:048][262]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:057][263]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:068][264]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:078][265]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:088][266]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:099][267]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:109][268]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:119][269]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:130][270]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:140][271]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:151][272]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:162][273]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:171][274]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:181][275]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:191][276]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:201][277]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:211][278]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:221][279]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:231][280]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:241][281]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:251][282]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:262][283]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:271][284]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:282][285]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:292][286]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:302][287]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:312][288]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:322][289]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:333][290]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:343][291]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:353][292]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:363][293]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:374][294]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:384][295]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:395][296]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:408][297]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:419][298]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:430][299]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:441][300]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:452][301]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:467][302]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:477][303]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:487][304]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:502][305]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:513][306]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:525][307]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:536][308]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:546][309]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:557][310]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:569][311]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:579][312]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:590][313]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:603][314]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:615][315]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:625][316]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:635][317]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:646][318]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:657][319]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:667][320]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:678][321]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:687][322]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:697][323]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:708][324]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:718][325]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:728][326]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:740][327]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:750][328]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:762][329]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:774][330]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:786][331]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:796][332]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:807][333]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:817][334]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:828][335]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:838][336]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:849][337]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:859][338]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:870][339]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:881][340]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:894][341]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:904][342]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:914][343]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:926][344]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:936][345]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:946][346]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:958][347]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:967][348]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:977][349]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:989][350]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:999][351]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:010][352]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:021][353]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:033][354]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:043][355]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:055][356]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:066][357]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:078][358]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:087][359]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:098][360]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:110][361]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:121][362]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:131][363]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:142][364]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:153][365]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:164][366]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:175][367]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:187][368]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:197][369]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:208][370]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:218][371]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:228][372]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:239][373]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:249][374]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:258][375]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:270][376]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:280][377]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:290][378]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:301][379]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:311][380]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:320][381]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:331][382]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:341][383]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:350][384]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:361][385]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:372][386]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:382][387]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:393][388]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:403][389]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:413][390]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:424][391]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:434][392]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:443][393]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:455][394]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:465][395]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:474][396]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:486][397]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:495][398]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:506][399]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:843][400]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.21:182][401]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.21:517][402]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.21:857][403]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.22:191][404]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.22:523][405]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.22:858][406]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.23:189][407]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.23:522][408]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.23:858][409]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.24:194][410]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.24:527][411]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.24:865][412]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.25:198][413]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.25:538][414]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.25:875][415]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.26:213][416]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.26:552][417]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.26:890][418]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.27:224][419]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.27:557][420]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.27:892][421]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.28:232][422]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.28:567][423]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.28:899][424]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.29:239][425]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.29:575][426]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.29:909][427]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.30:248][428]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.30:586][429]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.30:921][430]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.31:258][431]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.31:599][432]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.31:926][433]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.32:313][434]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.32:647][435]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.33:375][436]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.33:701][437]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.34:044][438]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.34:372][439]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.34:703][440]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.35:040][441]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.35:377][442]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.35:710][443]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.36:047][444]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.36:433][445]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.36:717][446]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.47:457][447]LogVSAccessor: Warning: Couldn't get Visual Studio COM object
+[2020.10.09-14.53.47:457][447]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.09-14.53.47:466][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:466][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:476][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:476][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:476][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:521][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:521][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:521][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:521][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:523][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:523][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:526][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:542][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:542][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:542][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:556][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:556][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:565][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:587][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:587][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:587][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:597][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:623][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:638][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:642][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:678][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:678][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:730][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:731][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:732][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:734][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:735][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:736][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:736][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:737][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.53:704][768]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.09-14.53.53:711][768]Candidate modules for hot reload:
+[2020.10.09-14.53.53:711][768]  Stealth
+[2020.10.09-14.53.53:711][768]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,8593 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.53.53:713][768]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.59.24:390][139]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-14.59.24:665][139]LogTemp: Resetting audio stream to device id 
+[2020.10.09-14.59.35:369][167]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-14.59.36:996][167]LogTemp: Resetting audio stream to device id 
+[2020.10.09-14.59.37:001][167]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-14.59.37:001][167]LogAudioMixer: Display: 1: FrontRight
