@@ -1,0 +1,1549 @@
+﻿Log file open, 10/08/20 15:41:13
+LogInit: Display: Running engine for game: Stealth
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.952202
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" -Output="D:/YProjects/Stealth/Stealth/Intermediate/TargetInfo.json"]
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.08-13.41.15:027][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.08-13.41.15:027][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.08-13.41.15:027][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.08-13.41.15:028][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.08-13.41.15:028][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.08-13.41.15:028][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.08-13.41.15:029][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.08-13.41.15:029][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.08-13.41.15:030][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.08-13.41.15:030][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.08-13.41.15:030][  0]LogHAL: Display: Platform has ~ 24 GB [25587765248 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.08-13.41.15:030][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.08-13.41.15:030][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.08-13.41.15:030][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.08-13.41.15:031][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.08-13.41.15:031][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.08-13.41.15:032][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.08-13.41.15:032][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.08-13.41.15:032][  0]LogInit: Computer: WS0184
+[2020.10.08-13.41.15:032][  0]LogInit: User: yhanna
+[2020.10.08-13.41.15:032][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.10.08-13.41.15:032][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.08-13.41.15:032][  0]LogMemory: Memory total: Physical=23.8GB (24GB approx)
+[2020.10.08-13.41.15:032][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.08-13.41.15:032][  0]LogMemory: Process Physical Memory: 114.39 MB used, 114.39 MB peak
+[2020.10.08-13.41.15:032][  0]LogMemory: Process Virtual Memory: 98.45 MB used, 98.45 MB peak
+[2020.10.08-13.41.15:032][  0]LogMemory: Physical Memory: 9025.21 MB used,  15377.18 MB free, 24402.39 MB total
+[2020.10.08-13.41.15:032][  0]LogMemory: Virtual Memory: 5121.01 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.10.08-13.41.15:038][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.08-13.41.15:069][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.08-13.41.15:070][  0]LogInit: Using OS detected language (en-US).
+[2020.10.08-13.41.15:070][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.08-13.41.15:073][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.08-13.41.15:237][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.08-13.41.15:260][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.08-13.41.15:260][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.08-13.41.15:447][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.08-13.41.15:447][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.08-13.41.15:447][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.08-13.41.15:447][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.08-13.41.15:485][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.10.08-13.41.15:485][  0]LogD3D11RHI:       128/0/12201 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.10.08-13.41.15:487][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.08-13.41.15:487][  0]LogD3D11RHI:       0/0/12201 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.08-13.41.15:487][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.08-13.41.15:493][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.08-13.41.15:493][  0]LogD3D11RHI:     GPU DeviceId: 0x3e92 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.08-13.41.15:493][  0]LogWindows: EnumDisplayDevices:
+[2020.10.08-13.41.15:493][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.10.08-13.41.15:493][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:493][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    3. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    7. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    8. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    9. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    10. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    11. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    12. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:494][  0]LogWindows:    13. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:495][  0]LogWindows:    14. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:495][  0]LogWindows:    15. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.08-13.41.15:495][  0]LogWindows: DebugString: PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed FoundDriverCount:0 
+[2020.10.08-13.41.15:495][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 630
+[2020.10.08-13.41.15:495][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.08-13.41.15:495][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.08-13.41.15:495][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.10.08-13.41.15:528][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.10.08-13.41.15:528][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.08-13.41.15:528][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.08-13.41.15:537][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.10.08-13.41.15:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.08-13.41.15:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.08-13.41.15:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.08-13.41.15:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.08-13.41.15:860][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.08-13.41.15:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.08-13.41.15:878][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.08-13.41.15:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.08-13.41.15:895][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.08-13.41.15:904][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.08-13.41.15:913][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.08-13.41.15:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.08-13.41.15:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.08-13.41.15:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.08-13.41.15:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.08-13.41.15:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.08-13.41.15:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.08-13.41.15:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.08-13.41.15:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.08-13.41.15:987][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.08-13.41.15:995][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.08-13.41.16:055][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../../YProjects/Stealth/Stealth/Intermediate/Shaders/WorkingDirectory/8856/).
+[2020.10.08-13.41.16:055][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yhanna/AppData/Local/Temp/UnrealShaderWorkingDir/90FECFF640E7789E984F569A31710D7E/'.
+[2020.10.08-13.41.16:055][  0]LogXGEController: Cleaning working directory: C:/Users/yhanna/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.10.08-13.41.16:056][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.08-13.41.16:056][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.08-13.41.16:056][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.08-13.41.16:784][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.08-13.41.16:836][  0]LogDerivedDataCache: Loaded boot cache 0.05s 79MB C:/Users/yhanna/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.08-13.41.16:836][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/yhanna/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.08-13.41.16:836][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../YProjects/Stealth/Stealth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.08-13.41.16:836][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.08-13.41.16:836][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../YProjects/Stealth/Stealth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.08-13.41.16:836][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.08-13.41.16:846][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.08-13.41.16:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.08-13.41.16:846][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.08-13.41.16:848][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yhanna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.08-13.41.16:848][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.08-13.41.16:848][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.08-13.41.16:894][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.08-13.41.16:894][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.08-13.41.16:922][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.10.08-13.41.17:132][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.08-13.41.17:239][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.08-13.41.17:239][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.08-13.41.17:239][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.08-13.41.17:239][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.08-13.41.17:239][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.08-13.41.17:253][  0]LogNetVersion: Stealth 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4006609941)
+[2020.10.08-13.41.17:636][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001CFA7CB4280), frame # 0
+[2020.10.08-13.41.17:636][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CFA7BE1080), frame # 0
+[2020.10.08-13.41.17:637][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CFA7C60A00), frame # 0
+[2020.10.08-13.41.17:674][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.031260 seconds
+[2020.10.08-13.41.17:678][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.08-13.41.17:679][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.08-13.41.17:679][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.08-13.41.18:016][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.08-13.41.18:020][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.08-13.41.18:203][  0]SourceControl: Source control is disabled
+[2020.10.08-13.41.18:204][  0]SourceControl: Source control is disabled
+[2020.10.08-13.41.18:207][  0]SourceControl: Source control is disabled
+[2020.10.08-13.41.18:209][  0]SourceControl: Source control is disabled
+[2020.10.08-13.41.18:216][  0]SourceControl: Source control is disabled
+[2020.10.08-13.41.18:456][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.08-13.41.18:477][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.08-13.41.18:477][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.08-13.41.18:524][  0]LogOcInput: OculusInput pre-init called
+[2020.10.08-13.41.18:533][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.08-13.41.18:533][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.08-13.41.18:590][  0]LogEngine: Initializing Engine...
+[2020.10.08-13.41.18:591][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.08-13.41.18:592][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.08-13.41.18:592][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.08-13.41.18:717][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.08-13.41.18:726][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.08-13.41.18:726][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CFAE2C0600), frame # 0
+[2020.10.08-13.41.18:726][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CFAE2AA840), frame # 0
+[2020.10.08-13.41.18:752][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.08-13.41.18:752][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.08-13.41.18:752][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.08-13.41.18:752][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.08-13.41.18:752][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.08-13.41.18:752][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.08-13.41.18:752][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.08-13.41.18:752][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.08-13.41.18:753][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.08-13.41.18:753][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.08-13.41.18:765][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.08-13.41.18:765][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.08-13.41.18:899][  0]LogAudioMixer: Display: Using Audio Device Remote Audio
+[2020.10.08-13.41.18:906][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.08-13.41.18:908][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.08-13.41.18:908][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.08-13.41.18:909][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.08-13.41.18:910][  0]LogInit: FAudioDevice initialized.
+[2020.10.08-13.41.18:910][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.08-13.41.18:960][  0]LogDerivedDataCache: Saved boot cache 0.05s 79MB C:/Users/yhanna/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.08-13.41.18:961][  0]LogInit: Texture streaming: Enabled
+[2020.10.08-13.41.18:976][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.08-13.41.18:976][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.08-13.41.18:977][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.08-13.41.19:010][  0]LogInit: Transaction tracking system initialized
+[2020.10.08-13.41.19:031][  0]BlueprintLog: New page: Editor Load
+[2020.10.08-13.41.19:097][  0]LocalizationService: Localization service is disabled
+[2020.10.08-13.41.19:235][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.08-13.41.19:235][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.08-13.41.19:369][  0]LogFileCache: Scanning file cache for directory 'D:/YProjects/Stealth/Stealth/Content/' took 0.00s
+[2020.10.08-13.41.19:573][  0]SourceControl: Source control is disabled
+[2020.10.08-13.41.19:573][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.249
+[2020.10.08-13.41.19:573][  0]Cmd: MAP LOAD FILE="../../../../../../YProjects/Stealth/Stealth/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.08-13.41.19:573][  0]LightingResults: New page: Lighting Build
+[2020.10.08-13.41.19:574][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.08-13.41.19:574][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.08-13.41.19:574][  0]MapCheck: New page: Map Check
+[2020.10.08-13.41.19:574][  0]LightingResults: New page: Lighting Build
+[2020.10.08-13.41.19:585][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CFAE2C0600), frame # 0
+[2020.10.08-13.41.19:585][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CFAE2AA840), frame # 0
+[2020.10.08-13.41.19:585][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.10.08-13.41.19:648][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.08-13.41.19:648][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CFA2A4B800), frame # 0
+[2020.10.08-13.41.19:648][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CFA2C38400), frame # 0
+[2020.10.08-13.41.19:653][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.08-13.41.19:670][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.08-13.41.19:670][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.08-13.41.19:670][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2020.10.08-13.41.19:670][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.098
+[2020.10.08-13.41.19:672][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.349
+[2020.10.08-13.41.19:802][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.08-13.41.19:809][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.08-13.41.19:817][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.08-13.41.19:824][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.08-13.41.19:830][  0]LogCollectionManager: Loaded 0 collections in 0.000884 seconds
+[2020.10.08-13.41.19:846][  0]LogFileCache: Scanning file cache for directory 'D:/YProjects/Stealth/Stealth/Saved/Collections/' took 0.00s
+[2020.10.08-13.41.19:846][  0]LogFileCache: Scanning file cache for directory 'D:/YProjects/Stealth/Stealth/Content/Developers/yhanna/Collections/' took 0.00s
+[2020.10.08-13.41.19:846][  0]LogFileCache: Scanning file cache for directory 'D:/YProjects/Stealth/Stealth/Content/Collections/' took 0.00s
+[2020.10.08-13.41.19:846][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3430 classes and 823 folders.
+[2020.10.08-13.41.19:848][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.08-13.41.19:928][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.08-13.41.19:932][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.10.08-13.41.20:038][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.08-13.41.20:039][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.08-13.41.20:043][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.08-13.41.20:117][  0]LogRenderer: Reallocating scene render targets to support 992x572 Format 10 NumSamples 1 (Frame:1).
+[2020.10.08-13.41.20:187][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.08-13.41.20:229][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.08-13.41.20:229][  0]LogLoad: (Engine Initialization) Total time: 9.91 seconds
+[2020.10.08-13.41.20:229][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.08-13.41.20:522][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.08-13.41.26:026][528]LogTcpMessaging: Started Connection to '127.0.0.1:6666'
+[2020.10.08-13.41.28:596][830]LogAssetRegistry: Asset discovery search completed in 11.6754 seconds
+[2020.10.08-13.41.28:600][830]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2020.10.08-13.41.53:732][181]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.08-13.41.53:775][181]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.10.08-13.41.53:775][181]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.10.08-13.41.53:823][181]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.08-13.42.00:810][986]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.10.08-13.42.20:168][308]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.10.08-13.42.21:117][419]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.08-13.42.21:120][419]Candidate modules for hot reload:
+[2020.10.08-13.42.21:120][419]  Stealth
+[2020.10.08-13.42.21:120][419]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,3912 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.08-13.42.21:122][419]Warning: Starting HotReload took  0.0s.
+[2020.10.08-13.42.31:126][891]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Stealth.AIPatrol
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: New page: Compilation - Oct 8, 2020, 5:43:06 PM
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: Creating makefile for StealthEditor (no existing makefile)
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: Reflection code generated for StealthEditor in 6.1116512 seconds
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: Building StealthEditor...
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: Building 15 actions with 6 processes...
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [1/15] Default.rc2
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [2/15] SharedPCH.Engine.ShadowErrors.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [3/15] Stealth.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [4/15] StealthGameMode.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [5/15] AIPatrol.gen.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [6/15] AIPatrolController.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [7/15] AIPatrolController.gen.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [8/15] StealthCharacter.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [9/15] Stealth.init.gen.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [10/15] AIPatrol.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [11/15] StealthGameMode.gen.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [12/15] StealthCharacter.gen.cpp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [13/15] UE4Editor-Stealth-3912.lib
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-3912.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-3912.exp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [14/15] UE4Editor-Stealth-3912.dll
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-3912.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-3912.suppressed.exp
+[2020.10.08-13.43.06:696][213]CompilerResultsLog:   [15/15] StealthEditor.target
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: Total time in Parallel executor: 31.72 seconds
+[2020.10.08-13.43.06:696][213]CompilerResultsLog: Total execution time: 45.37 seconds
+[2020.10.08-13.43.06:696][213]LogMainFrame: MainFrame: Module compiling took 45.579 seconds
+[2020.10.08-13.43.06:799][213]LogClass: Could not find existing class AIPatrolController in package /Script/Stealth for HotReload, assuming new class
+[2020.10.08-13.43.06:808][213]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.10.08-13.43.06:810][213]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.08-13.43.06:867][213]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3431 classes and 823 folders.
+[2020.10.08-13.43.06:867][213]Display: HotReload took 45.8s.
+[2020.10.08-13.43.14:897][587]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Stealth.AIPatrol
+[2020.10.08-13.43.38:813][420]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Stealth.AIPatrolController
+[2020.10.08-13.43.59:924][854]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Stealth.StealthCharacter
+[2020.10.08-13.44.49:752][205]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.08-13.44.49:763][205]Candidate modules for hot reload:
+[2020.10.08-13.44.49:763][205]  Stealth
+[2020.10.08-13.44.49:763][205]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1213 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.08-13.44.49:764][205]Warning: Starting HotReload took  0.0s.
+[2020.10.08-13.44.53:224][519]CompilerResultsLog: New page: Compilation - Oct 8, 2020, 5:44:53 PM
+[2020.10.08-13.44.53:224][519]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.08-13.44.53:224][519]CompilerResultsLog: Creating makefile for StealthEditor (no existing makefile)
+[2020.10.08-13.44.53:224][519]CompilerResultsLog: Building StealthEditor...
+[2020.10.08-13.44.53:224][519]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.08-13.44.53:224][519]CompilerResultsLog: Building 3 actions with 6 processes...
+[2020.10.08-13.44.53:224][519]CompilerResultsLog:   [1/3] UE4Editor-Stealth-1213.lib
+[2020.10.08-13.44.53:224][519]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1213.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1213.exp
+[2020.10.08-13.44.53:224][519]CompilerResultsLog:   [2/3] UE4Editor-Stealth-1213.dll
+[2020.10.08-13.44.53:224][519]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1213.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1213.suppressed.exp
+[2020.10.08-13.44.53:224][519]CompilerResultsLog:   [3/3] StealthEditor.target
+[2020.10.08-13.44.53:224][519]CompilerResultsLog: Total time in Parallel executor: 1.10 seconds
+[2020.10.08-13.44.53:224][519]CompilerResultsLog: Total execution time: 3.37 seconds
+[2020.10.08-13.44.53:224][519]LogMainFrame: MainFrame: Module compiling took 3.472 seconds
+[2020.10.08-13.44.53:279][519]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2020.10.08-13.44.53:280][519]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.08-13.44.53:327][519]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3431 classes and 823 folders.
+[2020.10.08-13.44.53:327][519]Display: HotReload took  3.6s.
+[2020.10.08-13.44.56:253][775]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Stealth.StealthCharacter
+[2020.10.08-13.45.26:996][  6]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Stealth.StealthCharacter
+[2020.10.08-13.45.27:058][  6]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/YProjects/Stealth/Stealth/Source/Stealth/StealthCharacter.h'
+[2020.10.08-13.45.58:960][519]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.10.08-13.45.58:960][519]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.10.08-13.46.06:044][310]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.10.08-13.46.13:822][208]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.10.08-13.46.37:661][ 32]Candidate modules for hot reload:
+[2020.10.08-13.46.37:661][ 32]  Stealth
+[2020.10.08-13.46.37:661][ 32]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,2748 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: New page: Compilation - Oct 8, 2020, 5:46:47 PM
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: Invalidating makefile for StealthEditor (source file added)
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: Reflection code generated for StealthEditor in 5.8624244 seconds
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: Building StealthEditor...
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: Building 7 actions with 6 processes...
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:   [1/7] Stealth.init.gen.cpp
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:   [2/7] AIPatrolPoint.cpp
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:   [3/7] AIPatrolPoint.gen.cpp
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:   [4/7] StealthCharacter.cpp
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:   [5/7] UE4Editor-Stealth-2748.lib
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-2748.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-2748.exp
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:   [6/7] UE4Editor-Stealth-2748.dll
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-2748.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-2748.suppressed.exp
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog:   [7/7] StealthEditor.target
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: Total time in Parallel executor: 2.01 seconds
+[2020.10.08-13.46.47:871][ 32]CompilerResultsLog: Total execution time: 10.12 seconds
+[2020.10.08-13.46.47:871][ 32]LogMainFrame: MainFrame: Module compiling took 10.213 seconds
+[2020.10.08-13.46.47:919][ 32]LogClass: Could not find existing class AIPatrolPoint in package /Script/Stealth for HotReload, assuming new class
+[2020.10.08-13.46.47:926][ 32]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.10.08-13.46.47:928][ 32]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.08-13.46.47:983][ 32]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3432 classes and 823 folders.
+[2020.10.08-13.46.47:983][ 32]Display: HotReload took 10.3s.
+[2020.10.08-13.46.47:983][ 32]Warning: HotReload operation took 10.3s.
+[2020.10.08-13.46.48:138][ 32]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/YProjects/Stealth/Stealth/Source/Stealth/AIPatrolPoint.h'
+[2020.10.08-13.46.48:254][ 32]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/YProjects/Stealth/Stealth/Source/Stealth/AIPatrolPoint.cpp'
+[2020.10.08-13.46.48:259][ 32]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.10.08-13.46.48:263][ 32]LogHotReload: New module detected: UE4Editor-Stealth-2748.dll
+[2020.10.08-13.46.48:322][ 33]LogHotReload: Starting Hot-Reload from IDE
+[2020.10.08-13.46.48:419][ 33]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2020.10.08-13.46.48:420][ 33]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.08-13.46.48:433][ 33]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3432 classes and 823 folders.
+[2020.10.08-13.46.48:436][ 33]Display: HotReload took  0.1s.
+[2020.10.08-13.47.16:676][966]Candidate modules for hot reload:
+[2020.10.08-13.47.16:677][966]  Stealth
+[2020.10.08-13.47.16:677][966]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1498 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.08-13.47.16:678][966]Warning: Starting HotReload took  0.0s.
+[2020.10.08-13.47.18:536][127]CompilerResultsLog: New page: Compilation - Oct 8, 2020, 5:47:18 PM
+[2020.10.08-13.47.18:536][127]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.08-13.47.18:536][127]CompilerResultsLog: Building StealthEditor...
+[2020.10.08-13.47.18:536][127]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.08-13.47.18:536][127]CompilerResultsLog: Building 3 actions with 6 processes...
+[2020.10.08-13.47.18:536][127]CompilerResultsLog:   [1/3] UE4Editor-Stealth-1498.lib
+[2020.10.08-13.47.18:536][127]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1498.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1498.exp
+[2020.10.08-13.47.18:536][127]CompilerResultsLog:   [2/3] UE4Editor-Stealth-1498.dll
+[2020.10.08-13.47.18:536][127]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1498.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1498.suppressed.exp
+[2020.10.08-13.47.18:536][127]CompilerResultsLog:   [3/3] StealthEditor.target
+[2020.10.08-13.47.18:536][127]CompilerResultsLog: Total time in Parallel executor: 0.99 seconds
+[2020.10.08-13.47.18:536][127]CompilerResultsLog: Total execution time: 1.77 seconds
+[2020.10.08-13.47.18:536][127]LogMainFrame: MainFrame: Module compiling took 1.862 seconds
+[2020.10.08-13.47.18:591][127]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.10.08-13.47.18:592][127]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.08-13.47.18:637][127]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3432 classes and 823 folders.
+[2020.10.08-13.47.18:637][127]Display: HotReload took  2.0s.
+[2020.10.08-13.49.32:758][857]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.10.08-13.49.32:758][857]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.10.08-13.50.03:943][549]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.08-13.50.04:323][549]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2020.10.08-13.50.05:440][549]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.10.08-13.50.05:610][550]LogRenderer: Reallocating scene render targets to support 1136x760 Format 10 NumSamples 1 (Frame:1).
+[2020.10.08-13.50.13:950][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BlueprintExtension/BP_AIPatrol" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset" SILENT=true
+[2020.10.08-13.50.14:040][787]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/BP_AIPatrol3B2D0BBD4D7D5A4FA8DEDE9E78DA25AA.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset'
+[2020.10.08-13.50.14:134][787]AssetCheck: New page: Asset Save: BP_AIPatrol
+[2020.10.08-13.50.14:134][787]LogContentValidation: Display: Validating Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.08-13.50.14:814][811]LogSlate: Window 'BP_AIPatrol' being destroyed
+[2020.10.08-13.50.14:832][811]LogSlate: Window 'BP_AIPatrol' being destroyed
+[2020.10.08-13.50.14:854][811]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.10.08-13.50.14:854][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.08-13.50.31:931][815]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.10.08-13.50.31:931][815]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.10.08-13.50.51:395][105]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BlueprintExtension/BP_AIPatrolPoint.BP_AIPatrolPoint
+[2020.10.08-13.50.51:697][105]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.10.08-13.50.53:909][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BlueprintExtension/BP_AIPatrolPoint" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrolPoint.uasset" SILENT=true
+[2020.10.08-13.50.53:914][168]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/BP_AIPatrolPoint0DF698064A07EDB63BC88085D4A37A5A.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrolPoint.uasset'
+[2020.10.08-13.50.53:929][168]AssetCheck: New page: Asset Save: BP_AIPatrolPoint
+[2020.10.08-13.50.53:929][168]LogContentValidation: Display: Validating Blueprint /Game/AI/BlueprintExtension/BP_AIPatrolPoint.BP_AIPatrolPoint
+[2020.10.08-13.50.57:047][263]LogSlate: Window 'BP_AIPatrolPoint' being destroyed
+[2020.10.08-13.50.57:065][263]LogSlate: Window 'BP_AIPatrolPoint' being destroyed
+[2020.10.08-13.50.57:071][263]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.10.08-13.50.57:071][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.08-13.51.14:913][358]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.10.08-13.51.14:913][358]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.10.08-13.51.40:181][363]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BlueprintExtension/BP_AIPatrolController.BP_AIPatrolController
+[2020.10.08-13.51.40:478][363]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.10.08-13.51.43:026][431]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.08-13.51.43:037][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.08-13.51.43:037][431]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 8, 2020, 5:51:43 PM)
+[2020.10.08-13.51.43:038][431]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.08-13.51.43:040][431]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.08-13.51.43:040][431]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.08-13.51.43:055][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014885s)
+[2020.10.08-13.51.43:056][431]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.08-13.51.43:056][431]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D00BFE6000), frame # 47431
+[2020.10.08-13.51.43:056][431]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D00BFFAFC0), frame # 47431
+[2020.10.08-13.51.43:057][431]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2020.10.08-13.51.43:057][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016249s)
+[2020.10.08-13.51.43:085][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.10.08-13.51.43:088][431]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.08-13.51.43:088][431]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.08-13.51.43:088][431]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.08-13.51.43:088][431]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.08-13.51.43:088][431]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.08-13.51.43:088][431]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.08-13.51.43:088][431]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.08-13.51.43:088][431]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.08-13.51.43:089][431]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.08-13.51.43:089][431]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.08-13.51.43:089][431]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.08-13.51.43:089][431]LogAudioMixer: Display: 1: FrontRight
+[2020.10.08-13.51.43:110][431]LogAudioMixer: Display: Using Audio Device Remote Audio
+[2020.10.08-13.51.43:110][431]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.08-13.51.43:110][431]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.08-13.51.43:110][431]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.08-13.51.43:110][431]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.08-13.51.43:123][431]LogInit: FAudioDevice initialized.
+[2020.10.08-13.51.43:154][431]LogLoad: Game class is 'StealthGameMode'
+[2020.10.08-13.51.43:156][431]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.10.08-15.51.43
+[2020.10.08-13.51.43:156][431]LogWorld: Bringing up level for play took: 0.001449
+[2020.10.08-13.51.43:156][431]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.10.08-13.51.43:230][431]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.10.08-13.51.43:231][431]PIE: Server logged in
+[2020.10.08-13.51.43:232][431]PIE: Play in editor total start time 0.199 seconds.
+[2020.10.08-13.51.44:511][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.08-13.51.44:511][458]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.08-13.51.44:512][458]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.08-13.51.44:512][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.08-13.51.44:526][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.08-13.51.44:529][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.08-13.51.44:566][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.08-13.51.44:573][458]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D00BFE6000), frame # 47458
+[2020.10.08-13.51.44:573][458]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D00BFFAFC0), frame # 47458
+[2020.10.08-13.51.44:586][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.10.08-13.51.44:606][459]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.10.08-13.51.46:101][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BlueprintExtension/BP_AIPatrolController" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrolController.uasset" SILENT=true
+[2020.10.08-13.51.46:105][500]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/BP_AIPatrolController04338D4444400D12EA423180245A05EE.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrolController.uasset'
+[2020.10.08-13.51.46:118][500]AssetCheck: New page: Asset Save: BP_AIPatrolController
+[2020.10.08-13.51.46:118][500]LogContentValidation: Display: Validating Blueprint /Game/AI/BlueprintExtension/BP_AIPatrolController.BP_AIPatrolController
+[2020.10.08-13.51.47:400][539]LogSlate: Window 'BP_AIPatrolController' being destroyed
+[2020.10.08-13.51.47:424][539]LogSlate: Window 'BP_AIPatrolController' being destroyed
+[2020.10.08-13.51.47:430][539]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.10.08-13.51.47:430][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.08-13.52.27:652][992]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/Behaviour/NewBehaviorTree.NewBehaviorTree
+[2020.10.08-13.52.29:587][147]LogSlate: Window 'NewBehaviorTree' being destroyed
+[2020.10.08-13.52.38:712][225]LogMetaData: Removing '/Game/AI/Behaviour/AIPatrolBT.AIPatrolBT:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/AI/Behaviour/NewBehaviorTree.PackageMetaData'
+[2020.10.08-13.52.38:733][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Behaviour/AIPatrolBT" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/Behaviour/AIPatrolBT.uasset" SILENT=true
+[2020.10.08-13.52.38:735][225]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/AIPatrolBTFD96F49F40F14303F4BBEEAAA5AECC2D.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/Behaviour/AIPatrolBT.uasset'
+[2020.10.08-13.52.38:955][225]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.10.08-13.52.38:996][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.10.08-13.52.39:010][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2020.10.08-13.52.39:054][225]AssetCheck: New page: Asset Save: AIPatrolBT
+[2020.10.08-13.52.39:055][225]LogContentValidation: Display: Validating BehaviorTree /Game/AI/Behaviour/AIPatrolBT.AIPatrolBT
+[2020.10.08-13.53.11:059][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.10.08-13.53.11:104][ 28]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/ThirdPersonExampleMap78FFA746479280D2E601898B3A29C60C.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.10.08-13.53.11:316][ 28]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/ThirdPersonExampleMap_BuiltDataFE45B0D44F14B5D2D0D495B72BC29B52.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.10.08-13.53.11:328][ 28]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.08-13.53.11:328][ 28]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.10.08-13.53.11:328][ 28]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.10.08-14.01.29:312][771]Candidate modules for hot reload:
+[2020.10.08-14.01.29:312][771]  Stealth
+[2020.10.08-14.01.29:312][771]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,6111 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.08-14.01.29:313][771]Warning: Starting HotReload took  0.0s.
+[2020.10.08-14.01.37:993][933]CompilerResultsLog: New page: Compilation - Oct 8, 2020, 6:01:37 PM
+[2020.10.08-14.01.37:993][933]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.08-14.01.37:993][933]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.08-14.01.37:993][933]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.08-14.01.37:993][933]CompilerResultsLog: Reflection code generated for StealthEditor in 6.0844726 seconds
+[2020.10.08-14.01.37:993][933]CompilerResultsLog: Building StealthEditor...
+[2020.10.08-14.01.37:993][933]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.08-14.01.37:993][933]CompilerResultsLog: Building 6 actions with 6 processes...
+[2020.10.08-14.01.37:993][933]CompilerResultsLog:   [1/6] Stealth.init.gen.cpp
+[2020.10.08-14.01.37:993][933]CompilerResultsLog:   [2/6] AIPatrol.cpp
+[2020.10.08-14.01.37:993][933]CompilerResultsLog:   [3/6] AIPatrol.gen.cpp
+[2020.10.08-14.01.37:993][933]CompilerResultsLog:   [4/6] UE4Editor-Stealth-6111.lib
+[2020.10.08-14.01.37:993][933]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-6111.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-6111.exp
+[2020.10.08-14.01.37:993][933]CompilerResultsLog:   [5/6] UE4Editor-Stealth-6111.dll
+[2020.10.08-14.01.37:993][933]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-6111.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-6111.suppressed.exp
+[2020.10.08-14.01.37:993][933]CompilerResultsLog:   [6/6] StealthEditor.target
+[2020.10.08-14.01.37:993][933]CompilerResultsLog: Total time in Parallel executor: 1.59 seconds
+[2020.10.08-14.01.37:993][933]CompilerResultsLog: Total execution time: 8.51 seconds
+[2020.10.08-14.01.37:993][933]LogMainFrame: MainFrame: Module compiling took 8.685 seconds
+[2020.10.08-14.01.38:116][933]LogClass: Could not find existing class AIPatrol in package /Script/Stealth for HotReload, assuming new class
+[2020.10.08-14.01.38:128][933]LogHotReload: Re-instancing AIPatrol after hot-reload.
+[2020.10.08-14.01.38:310][933]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.10.08-14.01.38:312][933]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.08-14.01.38:394][933]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3432 classes and 823 folders.
+[2020.10.08-14.01.38:395][933]Display: HotReload took  9.1s.
+[2020.10.08-14.03.11:715][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.10.08-14.03.11:718][210]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.053
+[2020.10.08-14.03.11:720][210]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Behaviour/AIPatrolBB] ([1] browsable assets)...
+[2020.10.08-14.03.11:720][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Behaviour/AIPatrolBB]
+[2020.10.08-14.03.11:720][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Behaviour/AIPatrolBB" FILE="../../../../../../YProjects/Stealth/Stealth/Saved/Autosaves/Game/AI/Behaviour/AIPatrolBB_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.10.08-14.03.11:721][210]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/AIPatrolBB_Auto1953F1BDE4720E5D80CA6A3AFA40C88BB.tmp' to '../../../../../../YProjects/Stealth/Stealth/Saved/Autosaves/Game/AI/Behaviour/AIPatrolBB_Auto1.uasset'
+[2020.10.08-14.03.11:722][210]LogFileHelpers: Auto-saving content packages took 0.003
+[2020.10.08-14.19.44:435][311]Candidate modules for hot reload:
+[2020.10.08-14.19.44:435][311]  Stealth
+[2020.10.08-14.19.44:435][311]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1651 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.08-14.19.44:437][311]Warning: Starting HotReload took  0.0s.
+[2020.10.08-14.19.53:428][267]CompilerResultsLog: New page: Compilation - Oct 8, 2020, 6:19:53 PM
+[2020.10.08-14.19.53:428][267]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.08-14.19.53:428][267]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.08-14.19.53:428][267]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.08-14.19.53:428][267]CompilerResultsLog: Reflection code generated for StealthEditor in 6.416492 seconds
+[2020.10.08-14.19.53:428][267]CompilerResultsLog: Building StealthEditor...
+[2020.10.08-14.19.53:428][267]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.08-14.19.53:428][267]CompilerResultsLog: Building 5 actions with 6 processes...
+[2020.10.08-14.19.53:428][267]CompilerResultsLog:   [1/5] AIPatrol.cpp
+[2020.10.08-14.19.53:428][267]CompilerResultsLog:   [2/5] AIPatrol.gen.cpp
+[2020.10.08-14.19.53:428][267]CompilerResultsLog:   [3/5] UE4Editor-Stealth-1651.lib
+[2020.10.08-14.19.53:428][267]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1651.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1651.exp
+[2020.10.08-14.19.53:428][267]CompilerResultsLog:   [4/5] UE4Editor-Stealth-1651.dll
+[2020.10.08-14.19.53:428][267]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1651.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1651.suppressed.exp
+[2020.10.08-14.19.53:428][267]CompilerResultsLog:   [5/5] StealthEditor.target
+[2020.10.08-14.19.53:428][267]CompilerResultsLog: Total time in Parallel executor: 1.66 seconds
+[2020.10.08-14.19.53:428][267]CompilerResultsLog: Total execution time: 8.90 seconds
+[2020.10.08-14.19.53:428][267]LogMainFrame: MainFrame: Module compiling took 8.996 seconds
+[2020.10.08-14.19.53:546][267]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.10.08-14.19.53:549][267]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.08-14.19.53:658][267]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3432 classes and 823 folders.
+[2020.10.08-14.19.53:658][267]Display: HotReload took  9.2s.
+[2020.10.08-14.19.56:436][496]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/Behaviour/AIPatrolBT.AIPatrolBT
+[2020.10.08-14.20.07:711][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Behaviour/AIPatrolBT" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/Behaviour/AIPatrolBT.uasset" SILENT=true
+[2020.10.08-14.20.07:714][474]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/AIPatrolBT0BF4307542374B5682232EB51C3C95AA.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/Behaviour/AIPatrolBT.uasset'
+[2020.10.08-14.20.07:726][474]AssetCheck: New page: Asset Save: AIPatrolBT
+[2020.10.08-14.20.07:726][474]LogContentValidation: Display: Validating BehaviorTree /Game/AI/Behaviour/AIPatrolBT.AIPatrolBT
+[2020.10.08-15.18.30:453][ 10]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.08-15.18.30:454][ 10]LogTemp: Resetting audio stream to device id 
+[2020.10.08-15.35.04:806][959]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.08-15.35.05:882][959]LogTemp: Resetting audio stream to device id 
+[2020.10.08-15.35.05:898][959]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.08-15.35.05:899][959]LogAudioMixer: Display: 1: FrontRight
+[2020.10.08-16.13.20:052][791]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.08-16.13.20:052][791]LogTemp: Resetting audio stream to device id 
+[2020.10.09-07.24.29:952][776]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-07.24.31:071][776]LogTemp: Resetting audio stream to device id 
+[2020.10.09-07.24.31:082][776]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-07.24.31:082][776]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-09.08.04:414][201]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-09.08.04:418][201]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.08.47:120][327]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-09.08.48:840][327]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.08.48:859][327]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-09.08.48:859][327]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-09.16.13:378][648]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-09.16.13:378][648]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.16.24:918][679]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-09.16.25:158][679]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.16.25:181][679]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-09.16.25:181][679]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-09.18.57:490][122]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.09-09.41.07:007][ 49]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-09.41.07:007][ 49]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.41.08:767][ 51]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-09.41.08:936][ 51]LogTemp: Resetting audio stream to device id 
+[2020.10.09-09.41.08:954][ 51]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-09.41.08:954][ 51]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.13.29:630][780]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-10.13.29:630][780]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.13.31:385][782]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-10.13.32:206][782]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.13.32:223][782]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.13.32:223][782]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.21.04:968][118]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-10.21.04:968][118]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.21.21:740][165]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-10.21.21:956][165]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.21.21:969][165]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.21.21:969][165]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.00:135][845]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-10.42.00:136][845]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.00:311][846]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-10.42.00:557][846]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.00:570][846]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.00:570][846]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.05:890][847]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.05:920][847]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.05:920][847]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.11:018][848]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.11:038][848]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.11:038][848]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.16:133][849]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.16:153][849]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.16:153][849]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.21:271][850]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.21:290][850]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.21:290][850]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-10.42.26:367][850]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x80070490: Element not found. (line: 1171)
+[2020.10.09-10.42.26:378][851]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.34:396][871]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-10.42.34:609][871]LogTemp: Resetting audio stream to device id 
+[2020.10.09-10.42.34:615][871]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-10.42.34:615][871]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-13.51.34:884][663]LogSlate: Window 'AIPatrolBT' being destroyed
+[2020.10.09-13.51.45:751][689]Candidate modules for hot reload:
+[2020.10.09-13.51.45:751][689]  Stealth
+[2020.10.09-13.51.45:811][689]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1728 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-13.51.45:908][689]Warning: Starting HotReload took  1.1s.
+[2020.10.09-13.51.46:521][689]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.09-13.51.47:072][729]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.10.09-13.52.04:279][419]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 5:52:03 PM
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Building 3 actions with 6 processes...
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:   [1/3] UE4Editor-Stealth-1728.lib
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1728.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1728.exp
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:   [2/3] UE4Editor-Stealth-1728.dll
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1728.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1728.suppressed.exp
+[2020.10.09-13.52.04:371][419]CompilerResultsLog:   [3/3] StealthEditor.target
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Total time in Parallel executor: 6.65 seconds
+[2020.10.09-13.52.04:371][419]CompilerResultsLog: Total execution time: 9.50 seconds
+[2020.10.09-13.52.04:384][419]LogMainFrame: MainFrame: Module compiling took 19.264 seconds
+[2020.10.09-13.52.06:464][419]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.1429 seconds. Added 5 classes and 2 folders.
+[2020.10.09-13.52.06:579][419]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.09-13.52.07:924][419]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 3432 classes and 823 folders.
+[2020.10.09-13.52.07:969][419]Display: HotReload took 23.2s.
+[2020.10.09-13.52.14:945][931]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.52.30:782][220]LogSlate: Window 'BP_AIPatrol' being destroyed
+[2020.10.09-13.52.31:280][220]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.09-13.52.31:396][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.09-13.52.32:274][220]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.52.36:789][271]LogSlate: Took 0.098093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.09-13.52.56:452][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BlueprintExtension/BP_AIPatrol" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset" SILENT=true
+[2020.10.09-13.52.57:312][610]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/BP_AIPatrol9067CB5049A6956F03136BA918735FC6.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset'
+[2020.10.09-13.52.57:972][610]AssetCheck: New page: Asset Save: BP_AIPatrol
+[2020.10.09-13.52.57:972][610]LogContentValidation: Display: Validating Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.54.31:414][415]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.09-13.54.54:287][575]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.09-13.54.57:648][593]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.09-13.55.06:453][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BlueprintExtension/BP_AIPatrol" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset" SILENT=true
+[2020.10.09-13.55.06:597][889]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/BP_AIPatrol00472B9846CDB2C33465878A06497C32.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset'
+[2020.10.09-13.55.06:611][889]AssetCheck: New page: Asset Save: BP_AIPatrol
+[2020.10.09-13.55.06:611][889]LogContentValidation: Display: Validating Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.55.22:168][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BlueprintExtension/BP_AIPatrol" FILE="../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset" SILENT=true
+[2020.10.09-13.55.22:177][365]LogSavePackage: Moving '../../../../../../YProjects/Stealth/Stealth/Saved/BP_AIPatrol0A91867B44417B72F5A007AF39D23196.tmp' to '../../../../../../YProjects/Stealth/Stealth/Content/AI/BlueprintExtension/BP_AIPatrol.uasset'
+[2020.10.09-13.55.22:200][365]AssetCheck: New page: Asset Save: BP_AIPatrol
+[2020.10.09-13.55.22:200][365]LogContentValidation: Display: Validating Blueprint /Game/AI/BlueprintExtension/BP_AIPatrol.BP_AIPatrol
+[2020.10.09-13.55.30:382][618]LogSlate: Window 'BP_AIPatrol' being destroyed
+[2020.10.09-13.55.30:393][618]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.09-13.55.30:393][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.09-13.55.32:317][806]Candidate modules for hot reload:
+[2020.10.09-13.55.32:317][806]  Stealth
+[2020.10.09-13.55.32:317][806]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1211 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-13.55.32:320][806]Warning: Starting HotReload took  0.0s.
+[2020.10.09-13.55.34:581][ 28]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 5:55:34 PM
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Building 3 actions with 6 processes...
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:   [1/3] UE4Editor-Stealth-1211.lib
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1211.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1211.exp
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:   [2/3] UE4Editor-Stealth-1211.dll
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1211.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-1211.suppressed.exp
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog:   [3/3] StealthEditor.target
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Total time in Parallel executor: 1.30 seconds
+[2020.10.09-13.55.34:582][ 28]CompilerResultsLog: Total execution time: 2.17 seconds
+[2020.10.09-13.55.34:582][ 28]LogMainFrame: MainFrame: Module compiling took 2.266 seconds
+[2020.10.09-13.55.34:729][ 28]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.10.09-13.55.34:734][ 28]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.09-13.55.34:905][ 28]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3432 classes and 823 folders.
+[2020.10.09-13.55.34:905][ 28]Display: HotReload took  2.6s.
+[2020.10.09-13.56.32:632][225]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Stealth.AIPatrolController
+[2020.10.09-13.57.48:659][835]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-13.57.48:659][835]LogTemp: Resetting audio stream to device id 
+[2020.10.09-13.57.51:350][839]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-13.57.52:573][839]LogTemp: Resetting audio stream to device id 
+[2020.10.09-13.57.52:590][839]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-13.57.52:590][839]LogAudioMixer: Display: 1: FrontRight
+[2020.10.09-14.02.18:136][757]Candidate modules for hot reload:
+[2020.10.09-14.02.18:136][757]  Stealth
+[2020.10.09-14.02.18:136][757]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,7401 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.02.18:138][757]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.09.38:604][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.09-14.11.05:923][974]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 6:11:14 PM
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.09-14.11.14:286][302]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Reflection code generated for StealthEditor in 63.0739103 seconds
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-14.11.14:286][302]CompilerResultsLog: Building 5 actions with 6 processes...
+[2020.10.09-14.11.14:286][302]LogMainFrame: MainFrame: Module compiling took 536.151 seconds
+[2020.10.09-14.11.14:311][302]Warning: HotReload failed, recompile failed
+[2020.10.09-14.11.17:005][490]LogSlate: Took 0.055778 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.09-14.11.19:522][772]Candidate modules for hot reload:
+[2020.10.09-14.11.19:522][772]  Stealth
+[2020.10.09-14.11.19:522][772]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,2332 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.11.19:524][772]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 6:11:35 PM
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.09-14.11.35:190][491]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Reflection code generated for StealthEditor in 6.7522074 seconds
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-14.11.35:190][491]CompilerResultsLog: Building 6 actions with 6 processes...
+[2020.10.09-14.11.35:190][491]LogMainFrame: MainFrame: Module compiling took 15.674 seconds
+[2020.10.09-14.11.35:190][491]Warning: HotReload failed, recompile failed
+[2020.10.09-14.13.40:662][232]Candidate modules for hot reload:
+[2020.10.09-14.13.40:662][232]  Stealth
+[2020.10.09-14.13.40:662][232]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,4343 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.13.40:664][232]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 6:14:38 PM
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Parsing headers for StealthEditor
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Reflection code generated for StealthEditor in 6.4622482 seconds
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog: Building 6 actions with 6 processes...
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   [1/6] AIPatrolController.cpp
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(36) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   [2/6] AIPatrolController.gen.cpp
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(36) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
+[2020.10.09-14.14.38:244][ 54]CompilerResultsLog:   [3/6] Stealth.init.gen.cpp
+[2020.10.09-14.14.38:244][ 54]LogMainFrame: MainFrame: Module compiling took 57.585 seconds
+[2020.10.09-14.14.38:245][ 54]Warning: HotReload failed, recompile failed
+[2020.10.09-14.49.52:247][130]Candidate modules for hot reload:
+[2020.10.09-14.49.52:247][130]  Stealth
+[2020.10.09-14.49.52:247][130]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1151 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.49.52:249][130]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.49.55:540][388]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 6:49:55 PM
+[2020.10.09-14.49.55:541][388]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
+[2020.10.09-14.49.55:541][388]CompilerResultsLog: Building StealthEditor...
+[2020.10.09-14.49.55:541][388]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.09-14.49.55:541][388]CompilerResultsLog: Building 5 actions with 6 processes...
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:   [1/5] AIPatrolController.cpp
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(36) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:   [2/5] AIPatrolController.gen.cpp
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(36) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
+[2020.10.09-14.49.55:541][388]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
+[2020.10.09-14.49.55:541][388]LogMainFrame: MainFrame: Module compiling took 3.297 seconds
+[2020.10.09-14.49.55:541][388]Warning: HotReload failed, recompile failed
+[2020.10.09-14.53.18:833][242]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:836][242]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:848][243]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:857][244]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:867][245]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:878][246]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:889][247]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:899][248]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:910][249]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:920][250]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:930][251]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:942][252]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:953][253]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:965][254]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:976][255]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:987][256]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.18:997][257]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:008][258]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:017][259]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:028][260]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:039][261]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:048][262]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:057][263]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:068][264]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:078][265]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:088][266]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:099][267]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:109][268]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:119][269]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:130][270]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:140][271]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:151][272]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:162][273]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:171][274]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:181][275]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:191][276]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:201][277]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:211][278]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:221][279]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:231][280]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:241][281]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:251][282]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:262][283]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:271][284]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:282][285]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:292][286]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:302][287]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:312][288]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:322][289]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:333][290]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:343][291]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:353][292]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:363][293]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:374][294]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:384][295]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:395][296]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:408][297]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:419][298]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:430][299]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:441][300]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:452][301]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:467][302]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:477][303]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:487][304]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:502][305]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:513][306]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:525][307]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:536][308]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:546][309]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:557][310]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:569][311]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:579][312]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:590][313]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:603][314]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:615][315]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:625][316]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:635][317]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:646][318]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:657][319]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:667][320]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:678][321]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:687][322]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:697][323]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:708][324]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:718][325]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:728][326]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:740][327]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:750][328]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:762][329]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:774][330]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:786][331]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:796][332]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:807][333]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:817][334]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:828][335]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:838][336]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:849][337]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:859][338]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:870][339]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:881][340]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:894][341]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:904][342]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:914][343]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:926][344]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:936][345]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:946][346]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:958][347]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:967][348]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:977][349]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:989][350]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.19:999][351]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:010][352]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:021][353]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:033][354]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:043][355]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:055][356]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:066][357]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:078][358]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:087][359]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:098][360]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:110][361]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:121][362]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:131][363]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:142][364]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:153][365]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:164][366]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:175][367]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:187][368]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:197][369]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:208][370]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:218][371]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:228][372]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:239][373]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:249][374]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:258][375]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:270][376]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:280][377]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:290][378]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:301][379]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:311][380]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:320][381]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:331][382]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:341][383]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:350][384]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:361][385]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:372][386]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:382][387]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:393][388]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:403][389]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:413][390]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:424][391]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:434][392]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:443][393]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:455][394]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:465][395]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:474][396]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:486][397]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:495][398]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:506][399]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.20:843][400]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.21:182][401]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.21:517][402]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.21:857][403]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.22:191][404]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.22:523][405]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.22:858][406]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.23:189][407]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.23:522][408]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.23:858][409]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.24:194][410]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.24:527][411]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.24:865][412]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.25:198][413]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.25:538][414]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.25:875][415]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.26:213][416]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.26:552][417]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.26:890][418]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.27:224][419]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.27:557][420]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.27:892][421]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.28:232][422]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.28:567][423]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.28:899][424]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.29:239][425]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.29:575][426]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.29:909][427]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.30:248][428]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.30:586][429]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.30:921][430]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.31:258][431]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.31:599][432]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.31:926][433]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.32:313][434]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.32:647][435]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.33:375][436]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.33:701][437]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.34:044][438]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.34:372][439]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.34:703][440]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.35:040][441]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.35:377][442]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.35:710][443]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.36:047][444]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.36:433][445]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.36:717][446]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.10.09-14.53.47:457][447]LogVSAccessor: Warning: Couldn't get Visual Studio COM object
+[2020.10.09-14.53.47:457][447]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.09-14.53.47:466][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:466][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:467][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:468][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:469][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:470][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:471][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:472][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:473][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:474][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:475][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:476][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:476][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:476][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:490][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:521][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:521][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:521][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:521][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:523][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:523][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:526][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:542][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:542][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:542][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:556][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:556][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:565][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:587][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:587][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:587][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:597][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:623][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:638][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:642][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:678][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:678][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:730][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:731][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:732][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:734][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:735][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:736][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:736][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.47:737][447]LogVSAccessor: Warning: Couldn't access module table
+[2020.10.09-14.53.53:704][768]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.09-14.53.53:711][768]Candidate modules for hot reload:
+[2020.10.09-14.53.53:711][768]  Stealth
+[2020.10.09-14.53.53:711][768]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,8593 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
+[2020.10.09-14.53.53:713][768]Warning: Starting HotReload took  0.0s.
+[2020.10.09-14.59.24:390][139]LogAudioMixer: Warning: Audio device removed, falling back to other windows default device.
+[2020.10.09-14.59.24:665][139]LogTemp: Resetting audio stream to device id 
+[2020.10.09-14.59.35:369][167]LogAudioMixer: Warning: Changing default audio render device to new device: {3.0.0.00000002}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}.
+[2020.10.09-14.59.36:996][167]LogTemp: Resetting audio stream to device id 
+[2020.10.09-14.59.37:001][167]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.09-14.59.37:001][167]LogAudioMixer: Display: 1: FrontRight

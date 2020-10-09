@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class APawn;
 #ifdef STEALTH_AIPatrol_generated_h
 #error "AIPatrol.generated.h already included, missing '#pragma once' in AIPatrol.h"
 #endif
 #define STEALTH_AIPatrol_generated_h
 
 #define Stealth_Source_Stealth_AIPatrol_h_12_SPARSE_DATA
-#define Stealth_Source_Stealth_AIPatrol_h_12_RPC_WRAPPERS
-#define Stealth_Source_Stealth_AIPatrol_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Stealth_Source_Stealth_AIPatrol_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnPlayCaught);
+
+
+#define Stealth_Source_Stealth_AIPatrol_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnPlayCaught);
+
+
 #define Stealth_Source_Stealth_AIPatrol_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAIPatrol(); \

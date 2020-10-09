@@ -29,4 +29,14 @@ public:
 	  class UBehaviorTree* BehaviorTree;
 
 
+	UPROPERTY(VisibleAnywhere, Category = AI)
+		class UPawnSensingComponent* PawnSensingComp;
+
+
+private :
+	UFUNCTION()
+		void OnPlayCaught(APawn *pawn);
+
+
+
 };

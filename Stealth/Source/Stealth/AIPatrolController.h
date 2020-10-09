@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
-#include "Engine.h"
+#include "BehaviorTree/BehaviorTreeComponent.h"
 #include "AIPatrolController.generated.h"
 
 /**
@@ -34,13 +34,17 @@ class STEALTH_API AAIPatrolController : public AAIController
 
 	TArray <AActor*> PatrolPoints;
 
-	virtual void Possess(APawn *pawn) override;
+	virtual void OnPossess(APawn *pawn) override;
+
+	int32 CurrentPatrolPoint;
 
 public:
 	AAIPatrolController();
 
-
+	void setPlayerCaught(APawn *pawn);
 	/*Inline getter function */
 
 	FORCEINLINE UBlackboardComponent* GetBlackBoardComp() const { return BlackboardComp; }
+
+	FORCEINLINE TArray<AActor*> GetPatrolPoints()const { return PatrolPoints; }
 };
