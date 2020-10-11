@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Stealth.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{05827685-C339-41FD-B1C2-D73DA1BA241B}</UniqueIdentifier>
+      <UniqueIdentifier>{6C3C8209-2011-4BD2-9693-D823EBFAA626}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Stealth.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{71A04868-0014-4937-B0BC-A1E0D8A6C355}</UniqueIdentifier>
+      <UniqueIdentifier>{1CA056C4-E173-4150-95A7-DBCA661790A4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Stealth">
-      <UniqueIdentifier>{A67AE30B-4E6C-4F21-8374-810500A49383}</UniqueIdentifier>
+      <UniqueIdentifier>{2C57AD6D-1572-4EC5-A5E0-90739C29DFF5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Stealth\AIPatrol.cpp">
       <Filter>Source\Stealth</Filter>
@@ -42,6 +42,18 @@
       <Filter>Source\Stealth</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Stealth\AIPatrolController.h">
+      <Filter>Source\Stealth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Stealth\AIPatrolPoint.cpp">
+      <Filter>Source\Stealth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stealth\AIPatrolPoint.h">
+      <Filter>Source\Stealth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Stealth\BTSelectPatrolPoint.cpp">
+      <Filter>Source\Stealth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stealth\BTSelectPatrolPoint.h">
       <Filter>Source\Stealth</Filter>
     </ClInclude>
     <None Include="..\..\Source\Stealth\Stealth.Build.cs">
@@ -65,15 +77,5 @@
     <ClInclude Include="..\..\Source\Stealth\StealthGameMode.h">
       <Filter>Source\Stealth</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Stealth\AIPatrolPoint.h">
-      <Filter>Source\Stealth</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Stealth\AIPatrolPoint.cpp">
-      <Filter>Source\Stealth</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
-﻿Log file open, 10/09/20 17:13:47
+﻿Log file open, 10/11/20 14:24:11
 LogInit: Display: Running engine for game: Stealth
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.483286
+LogStats: Stats thread started at 6.547943
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -135,16 +135,16 @@ LogInit:  - BufferSize = 65536
 LogOnline: OSS: Creating online subsystem instance for: NULL
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-LogInit: Build: ++UE4+Release-4.25-CL-13594126
-LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
 LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: Intel(R) UHD Graphics 630
-LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  -EpicPortal -epicusername=youssefmyh -epicuserid=e1ee85fb02d247a1bc5fe1b2695ac83c -epiclocale=en
+LogInit: Command Line:  -skipcompile
 LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -194,666 +194,421 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
-[2020.10.09-15.13.47:493][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.10.09-15.13.47:493][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.10.09-15.13.47:494][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
-[2020.10.09-15.13.47:494][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
-[2020.10.09-15.13.47:496][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.09-15.13.47:496][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.09-15.13.47:497][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.09-15.13.47:497][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.09-15.13.47:497][  0]LogHAL: Display: Platform has ~ 24 GB [25587765248 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.09-15.13.47:497][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.09-15.13.47:497][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.09-15.13.47:497][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.09-15.13.47:498][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.10.09-15.13.47:499][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.10.09-15.13.47:499][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.10.09-15.13.47:499][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.10.09-15.13.47:499][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
-[2020.10.09-15.13.47:499][  0]LogInit: Computer: WS0184
-[2020.10.09-15.13.47:499][  0]LogInit: User: yhanna
-[2020.10.09-15.13.47:499][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.10.09-15.13.47:499][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.09-15.13.47:499][  0]LogMemory: Memory total: Physical=23.8GB (24GB approx)
-[2020.10.09-15.13.47:499][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.09-15.13.47:499][  0]LogMemory: Process Physical Memory: 114.50 MB used, 114.50 MB peak
-[2020.10.09-15.13.47:499][  0]LogMemory: Process Virtual Memory: 98.25 MB used, 98.25 MB peak
-[2020.10.09-15.13.47:499][  0]LogMemory: Physical Memory: 5872.17 MB used,  18530.23 MB free, 24402.39 MB total
-[2020.10.09-15.13.47:499][  0]LogMemory: Virtual Memory: 5121.01 MB used,  134212608.00 MB free, 134217728.00 MB total
-[2020.10.09-15.13.47:505][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.10.09-15.13.47:539][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.10.09-15.13.47:540][  0]LogInit: Using OS detected language (en-US).
-[2020.10.09-15.13.47:540][  0]LogInit: Using OS detected locale (en-US).
-[2020.10.09-15.13.47:543][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.10.09-15.13.47:718][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.09-15.13.47:745][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.09-15.13.47:745][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.09-15.13.47:934][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.09-15.13.47:934][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.10.09-15.13.47:934][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.10.09-15.13.47:934][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.09-15.13.47:971][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2020.10.09-15.13.47:971][  0]LogD3D11RHI:       128/0/12201 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2020.10.09-15.13.47:974][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.09-15.13.47:974][  0]LogD3D11RHI:       0/0/12201 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.09-15.13.47:974][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.09-15.13.47:978][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.09-15.13.47:978][  0]LogD3D11RHI:     GPU DeviceId: 0x3e92 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.09-15.13.47:978][  0]LogWindows: EnumDisplayDevices:
-[2020.10.09-15.13.47:978][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2020.10.09-15.13.47:978][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:978][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:978][  0]LogWindows:    3. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:978][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:978][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:978][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:978][  0]LogWindows:    7. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:978][  0]LogWindows:    8. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:979][  0]LogWindows:    9. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:979][  0]LogWindows:    10. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:979][  0]LogWindows:    11. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:979][  0]LogWindows:    12. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:979][  0]LogWindows:    13. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:979][  0]LogWindows:    14. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:979][  0]LogWindows:    15. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.09-15.13.47:979][  0]LogWindows: DebugString: PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed FoundDriverCount:0 
-[2020.10.09-15.13.47:979][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 630
-[2020.10.09-15.13.47:979][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.10.09-15.13.47:979][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.10.09-15.13.47:979][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
-[2020.10.09-15.13.48:018][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2020.10.09-15.13.48:018][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.09-15.13.48:018][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.10.09-15.13.48:024][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
-[2020.10.09-15.13.48:274][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.10.09-15.13.48:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.10.09-15.13.48:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.10.09-15.13.48:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.10.09-15.13.48:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.10.09-15.13.48:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.10.09-15.13.48:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.10.09-15.13.48:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.10.09-15.13.48:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.10.09-15.13.48:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.10.09-15.13.48:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.10.09-15.13.48:313][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.10.09-15.13.48:313][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.10.09-15.13.48:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.10.09-15.13.48:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.10.09-15.13.48:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.10.09-15.13.48:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.10.09-15.13.48:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.10.09-15.13.48:362][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.10.09-15.13.48:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.10.09-15.13.48:394][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.10.09-15.13.48:394][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.10.09-15.13.48:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.10.09-15.13.48:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.10.09-15.13.48:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.10.09-15.13.48:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.10.09-15.13.48:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.10.09-15.13.48:442][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.10.09-15.13.48:442][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.09-15.13.48:453][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.10.09-15.13.48:510][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../../YProjects/Stealth/Stealth/Intermediate/Shaders/WorkingDirectory/5504/).
-[2020.10.09-15.13.48:510][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yhanna/AppData/Local/Temp/UnrealShaderWorkingDir/5C921C5F46838492E41605BD1CA58AD1/'.
-[2020.10.09-15.13.48:510][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.09-15.13.48:510][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.09-15.13.48:510][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.09-15.13.49:217][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.09-15.13.49:266][  0]LogDerivedDataCache: Loaded boot cache 0.05s 79MB C:/Users/yhanna/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.09-15.13.49:266][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/yhanna/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.10.09-15.13.49:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../YProjects/Stealth/Stealth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.09-15.13.49:266][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.09-15.13.49:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../YProjects/Stealth/Stealth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.09-15.13.49:266][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.09-15.13.49:276][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.09-15.13.49:276][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.09-15.13.49:276][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.10.09-15.13.49:277][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yhanna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.09-15.13.49:277][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.09-15.13.49:277][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.09-15.13.49:322][  0]LogSlate: Using FreeType 2.10.0
-[2020.10.09-15.13.49:323][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.09-15.13.49:347][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2020.10.09-15.13.49:546][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.09-15.13.49:646][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.09-15.13.49:646][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.10.09-15.13.49:646][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.09-15.13.49:646][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.10.09-15.13.49:646][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.10.09-15.13.49:658][  0]LogNetVersion: Stealth 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4006609941)
-[2020.10.09-15.13.50:017][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000203B53AC340), frame # 0
-[2020.10.09-15.13.50:017][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000203B62E5080), frame # 0
-[2020.10.09-15.13.50:018][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000203B5360A00), frame # 0
-[2020.10.09-15.13.50:049][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.026414 seconds
-[2020.10.09-15.13.50:053][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.10.09-15.13.50:053][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.10.09-15.13.50:053][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.09-15.13.50:366][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.09-15.13.50:370][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.09-15.13.50:539][  0]SourceControl: Source control is disabled
-[2020.10.09-15.13.50:539][  0]SourceControl: Source control is disabled
-[2020.10.09-15.13.50:542][  0]SourceControl: Source control is disabled
-[2020.10.09-15.13.50:545][  0]SourceControl: Source control is disabled
-[2020.10.09-15.13.50:552][  0]SourceControl: Source control is disabled
-[2020.10.09-15.13.50:771][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.09-15.13.50:790][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.09-15.13.50:790][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.09-15.13.50:830][  0]LogOcInput: OculusInput pre-init called
-[2020.10.09-15.13.50:839][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.10.09-15.13.50:839][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.10.09-15.13.50:895][  0]LogEngine: Initializing Engine...
-[2020.10.09-15.13.50:896][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.09-15.13.50:896][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.10.09-15.13.50:897][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.10.09-15.13.50:998][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.09-15.13.51:006][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.09-15.13.51:006][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000203B7730600), frame # 0
-[2020.10.09-15.13.51:006][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000203B7722C00), frame # 0
-[2020.10.09-15.13.51:021][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.09-15.13.51:021][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.09-15.13.51:021][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.09-15.13.51:021][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.09-15.13.51:021][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.09-15.13.51:021][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.09-15.13.51:021][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.09-15.13.51:021][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.09-15.13.51:021][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.09-15.13.51:021][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.09-15.13.51:032][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.09-15.13.51:032][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.10.09-15.13.51:071][  0]LogAudioMixer: Display: Using Audio Device Remote Audio
-[2020.10.09-15.13.51:077][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.09-15.13.51:079][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.09-15.13.51:079][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.09-15.13.51:080][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.09-15.13.51:081][  0]LogInit: FAudioDevice initialized.
-[2020.10.09-15.13.51:081][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.09-15.13.51:126][  0]LogDerivedDataCache: Saved boot cache 0.05s 79MB C:/Users/yhanna/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.09-15.13.51:127][  0]LogInit: Texture streaming: Enabled
-[2020.10.09-15.13.51:140][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.09-15.13.51:140][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.10.09-15.13.51:142][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.10.09-15.13.51:176][  0]LogInit: Transaction tracking system initialized
-[2020.10.09-15.13.51:198][  0]BlueprintLog: New page: Editor Load
-[2020.10.09-15.13.51:259][  0]LocalizationService: Localization service is disabled
-[2020.10.09-15.13.51:381][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.09-15.13.51:381][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.09-15.13.51:502][  0]LogFileCache: Scanning file cache for directory 'D:/YProjects/Stealth/Stealth/Content/' took 0.00s
-[2020.10.09-15.13.51:685][  0]SourceControl: Source control is disabled
-[2020.10.09-15.13.51:686][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.679
-[2020.10.09-15.13.51:686][  0]Cmd: MAP LOAD FILE="../../../../../../YProjects/Stealth/Stealth/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.09-15.13.51:686][  0]LightingResults: New page: Lighting Build
-[2020.10.09-15.13.51:686][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.10.09-15.13.51:687][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.09-15.13.51:687][  0]MapCheck: New page: Map Check
-[2020.10.09-15.13.51:687][  0]LightingResults: New page: Lighting Build
-[2020.10.09-15.13.51:696][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000203B7730600), frame # 0
-[2020.10.09-15.13.51:696][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000203B7722C00), frame # 0
-[2020.10.09-15.13.51:697][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2020.10.09-15.13.51:755][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.10.09-15.13.51:755][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000203A8673E00), frame # 0
-[2020.10.09-15.13.51:755][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000203A8884540), frame # 0
-[2020.10.09-15.13.51:764][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.09-15.13.51:782][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2020.10.09-15.13.51:782][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.09-15.13.51:782][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.07ms to complete.
-[2020.10.09-15.13.51:782][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.096
-[2020.10.09-15.13.51:784][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.777
-[2020.10.09-15.13.51:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.09-15.13.51:908][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.09-15.13.51:915][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.09-15.13.51:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.09-15.13.51:927][  0]LogCollectionManager: Loaded 0 collections in 0.000813 seconds
-[2020.10.09-15.13.51:941][  0]LogFileCache: Scanning file cache for directory 'D:/YProjects/Stealth/Stealth/Saved/Collections/' took 0.00s
-[2020.10.09-15.13.51:941][  0]LogFileCache: Scanning file cache for directory 'D:/YProjects/Stealth/Stealth/Content/Developers/yhanna/Collections/' took 0.00s
-[2020.10.09-15.13.51:941][  0]LogFileCache: Scanning file cache for directory 'D:/YProjects/Stealth/Stealth/Content/Collections/' took 0.00s
-[2020.10.09-15.13.51:941][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3432 classes and 823 folders.
-[2020.10.09-15.13.51:943][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.10.09-15.13.52:022][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.10.09-15.13.52:026][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
-[2020.10.09-15.13.52:122][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.09-15.13.52:123][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.09-15.13.52:127][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.09-15.13.52:198][  0]LogRenderer: Reallocating scene render targets to support 868x556 Format 10 NumSamples 1 (Frame:1).
-[2020.10.09-15.13.52:261][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.09-15.13.52:302][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.10.09-15.13.52:302][  0]LogLoad: (Engine Initialization) Total time: 8.30 seconds
-[2020.10.09-15.13.52:302][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.09-15.13.52:335][  0]LogAssetRegistry: Asset discovery search completed in 2.9937 seconds
-[2020.10.09-15.13.52:339][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.10.09-15.13.52:594][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.09-15.14.21:930][503]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2020.10.09-15.14.21:933][503]Candidate modules for hot reload:
-[2020.10.09-15.14.21:933][503]  Stealth
-[2020.10.09-15.14.21:933][503]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,3137 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
-[2020.10.09-15.14.21:935][503]Warning: Starting HotReload took  0.0s.
-[2020.10.09-15.14.26:643][999]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.09-15.14.26:665][999]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Stealth.AIPatrolController
-[2020.10.09-15.18.37:698][206]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 7:18:37 PM
-[2020.10.09-15.18.37:698][206]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
-[2020.10.09-15.18.37:698][206]CompilerResultsLog: Building StealthEditor...
-[2020.10.09-15.18.37:698][206]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.09-15.18.37:698][206]CompilerResultsLog: Building 5 actions with 6 processes...
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:   [1/5] AIPatrolController.gen.cpp
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(19) : error C2143: syntax error: missing ';' before '*'
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(19) : error C2238: unexpected token(s) preceding ';'
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(37) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:   [2/5] AIPatrolController.cpp
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(19) : error C2143: syntax error: missing ';' before '*'
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(19) : error C2238: unexpected token(s) preceding ';'
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(37) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
-[2020.10.09-15.18.37:698][206]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
-[2020.10.09-15.18.37:698][206]LogMainFrame: MainFrame: Module compiling took 255.973 seconds
-[2020.10.09-15.18.37:698][206]Warning: HotReload failed, recompile failed
-[2020.10.09-15.18.43:737][362]LogSlate: Took 0.020213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.10.09-15.19.20:776][981]Candidate modules for hot reload:
-[2020.10.09-15.19.20:776][981]  Stealth
-[2020.10.09-15.19.20:776][981]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,1811 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
-[2020.10.09-15.19.20:777][981]Warning: Starting HotReload took  0.1s.
-[2020.10.09-15.19.32:630][647]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 7:19:32 PM
-[2020.10.09-15.19.32:631][647]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
-[2020.10.09-15.19.32:631][647]CompilerResultsLog: Parsing headers for StealthEditor
-[2020.10.09-15.19.32:631][647]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.10.09-15.19.32:631][647]CompilerResultsLog: Reflection code generated for StealthEditor in 9.3331143 seconds
-[2020.10.09-15.19.32:631][647]CompilerResultsLog: Building StealthEditor...
-[2020.10.09-15.19.32:631][647]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.09-15.19.32:631][647]CompilerResultsLog: Building 5 actions with 6 processes...
-[2020.10.09-15.19.32:631][647]CompilerResultsLog:   [1/5] AIPatrolController.gen.cpp
-[2020.10.09-15.19.32:631][647]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(38) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
-[2020.10.09-15.19.32:631][647]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
-[2020.10.09-15.19.32:631][647]CompilerResultsLog:   [2/5] AIPatrolController.cpp
-[2020.10.09-15.19.32:631][647]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(38) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
-[2020.10.09-15.19.32:631][647]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
-[2020.10.09-15.19.32:631][647]LogMainFrame: MainFrame: Module compiling took 11.857 seconds
-[2020.10.09-15.19.32:631][647]Warning: HotReload failed, recompile failed
-[2020.10.09-15.19.52:500][451]Candidate modules for hot reload:
-[2020.10.09-15.19.52:500][451]  Stealth
-[2020.10.09-15.19.52:500][451]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,133 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
-[2020.10.09-15.19.52:501][451]Warning: Starting HotReload took  0.0s.
-[2020.10.09-15.19.54:684][632]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 7:19:54 PM
-[2020.10.09-15.19.54:684][632]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
-[2020.10.09-15.19.54:684][632]CompilerResultsLog: Building StealthEditor...
-[2020.10.09-15.19.54:684][632]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.09-15.19.54:684][632]CompilerResultsLog: Building 5 actions with 6 processes...
-[2020.10.09-15.19.54:684][632]CompilerResultsLog:   [1/5] AIPatrolController.cpp
-[2020.10.09-15.19.54:684][632]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrolController.h(38) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
-[2020.10.09-15.19.54:684][632]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
-[2020.10.09-15.19.54:684][632]CompilerResultsLog:   [2/5] AIPatrolController.gen.cpp
-[2020.10.09-15.19.54:684][632]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth/AIPatrolController.h(38) : error C3248: 'AController::Possess': function declared as 'final' cannot be overridden by 'AAIPatrolController::Possess'
-[2020.10.09-15.19.54:684][632]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(276): note: see declaration of 'AController::Possess'
-[2020.10.09-15.19.54:684][632]LogMainFrame: MainFrame: Module compiling took 2.187 seconds
-[2020.10.09-15.19.54:684][632]Warning: HotReload failed, recompile failed
-[2020.10.09-15.21.08:487][562]Candidate modules for hot reload:
-[2020.10.09-15.21.08:487][562]  Stealth
-[2020.10.09-15.21.08:487][562]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,4061 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
-[2020.10.09-15.21.08:489][562]Warning: Starting HotReload took  0.0s.
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 7:21:33 PM
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: Parsing headers for StealthEditor
-[2020.10.09-15.21.33:617][651]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: Reflection code generated for StealthEditor in 6.5487359 seconds
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: Building StealthEditor...
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: Building 5 actions with 6 processes...
-[2020.10.09-15.21.33:617][651]CompilerResultsLog:   [1/5] AIPatrolController.cpp
-[2020.10.09-15.21.33:617][651]CompilerResultsLog:   [2/5] AIPatrolController.gen.cpp
-[2020.10.09-15.21.33:617][651]CompilerResultsLog:   [3/5] UE4Editor-Stealth-4061.lib
-[2020.10.09-15.21.33:617][651]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-4061.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-4061.exp
-[2020.10.09-15.21.33:617][651]CompilerResultsLog:   [4/5] UE4Editor-Stealth-4061.dll
-[2020.10.09-15.21.33:617][651]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-4061.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-4061.suppressed.exp
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: Error:   AIPatrolController.cpp.obj : error LNK2019: unresolved external symbol "public: __cdecl AAIPatrolController::AAIPatrolController(void)" (??0AAIPatrolController@@QEAA@XZ) referenced in function "public: static void __cdecl AAIPatrolController::__DefaultConstructor(class FObjectInitializer const &)" (?__DefaultConstructor@AAIPatrolController@@SAXAEBVFObjectInitializer@@@Z)
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: Error:   AIPatrolController.gen.cpp.obj : error LNK2001: unresolved external symbol "public: __cdecl AAIPatrolController::AAIPatrolController(void)" (??0AAIPatrolController@@QEAA@XZ)
-[2020.10.09-15.21.33:617][651]CompilerResultsLog: Error:   D:\YProjects\Stealth\Stealth\Binaries\Win64\UE4Editor-Stealth-4061.dll : fatal error LNK1120: 1 unresolved externals
-[2020.10.09-15.21.33:618][651]LogMainFrame: MainFrame: Module compiling took 25.141 seconds
-[2020.10.09-15.21.33:618][651]Warning: HotReload failed, recompile failed
-[2020.10.09-15.22.16:451][973]Candidate modules for hot reload:
-[2020.10.09-15.22.16:451][973]  Stealth
-[2020.10.09-15.22.16:452][973]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,6352 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
-[2020.10.09-15.22.16:453][973]Warning: Starting HotReload took  0.0s.
-[2020.10.09-15.22.19:547][298]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 7:22:19 PM
-[2020.10.09-15.22.19:547][298]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
-[2020.10.09-15.22.19:547][298]CompilerResultsLog: Building StealthEditor...
-[2020.10.09-15.22.19:547][298]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.09-15.22.19:547][298]CompilerResultsLog: Building 4 actions with 6 processes...
-[2020.10.09-15.22.19:547][298]CompilerResultsLog:   [1/4] AIPatrolController.cpp
-[2020.10.09-15.22.19:547][298]CompilerResultsLog:   [2/4] UE4Editor-Stealth-6352.lib
-[2020.10.09-15.22.19:547][298]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-6352.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-6352.exp
-[2020.10.09-15.22.19:547][298]CompilerResultsLog:   [3/4] UE4Editor-Stealth-6352.dll
-[2020.10.09-15.22.19:547][298]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-6352.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-6352.suppressed.exp
-[2020.10.09-15.22.19:547][298]CompilerResultsLog:   [4/4] StealthEditor.target
-[2020.10.09-15.22.19:547][298]CompilerResultsLog: Total time in Parallel executor: 2.25 seconds
-[2020.10.09-15.22.19:547][298]CompilerResultsLog: Total execution time: 3.01 seconds
-[2020.10.09-15.22.19:547][298]LogMainFrame: MainFrame: Module compiling took 3.098 seconds
-[2020.10.09-15.22.19:792][298]LogClass: Could not find existing class AIPatrolController in package /Script/Stealth for HotReload, assuming new class
-[2020.10.09-15.22.19:797][298]LogHotReload: Re-instancing AIPatrolController after hot-reload.
-[2020.10.09-15.22.19:804][298]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2020.10.09-15.22.19:805][298]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2020.10.09-15.22.19:859][298]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3432 classes and 823 folders.
-[2020.10.09-15.22.19:859][298]Display: HotReload took  3.4s.
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95C5705D-46B1-141A-6EAD-17ADD37850BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=913b56f64806c97ff787d28bd1f9692d%7Ce1ee85fb02d247a1bc5fe1b2695ac83c%7C3cfe950e-a763-4330-a763-b214e4567f8a&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: request failed, libcurl error: 0 (No error)
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x203f9337f70 [can pipeline])
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: libcurl info message cache 1 (Re-using existing connection! (#4) with host datarouter.ol.epicgames.com)
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.211.140.58) port 443 (#4))
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: libcurl info message cache 3 (We are completely uploaded and fine)
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: libcurl info message cache 7 (Closing connection 4)
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: 00000203D8A0AB00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2020.10.09-15.23.17:100][332]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95C5705D-46B1-141A-6EAD-17ADD37850BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=913b56f64806c97ff787d28bd1f9692d%7Ce1ee85fb02d247a1bc5fe1b2695ac83c%7C3cfe950e-a763-4330-a763-b214e4567f8a&AppEnvironment=datacollector-source&UploadType=eteventstream
-[2020.10.09-15.49.08:740][ 83]Candidate modules for hot reload:
-[2020.10.09-15.49.08:740][ 83]  Stealth
-[2020.10.09-15.49.08:740][ 83]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,5679 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
-[2020.10.09-15.49.08:741][ 83]Warning: Starting HotReload took  0.0s.
-[2020.10.09-15.49.19:341][395]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 7:49:19 PM
-[2020.10.09-15.49.19:342][395]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
-[2020.10.09-15.49.19:342][395]CompilerResultsLog: Parsing headers for StealthEditor
-[2020.10.09-15.49.19:342][395]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.10.09-15.49.19:342][395]CompilerResultsLog: Reflection code generated for StealthEditor in 5.9743009 seconds
-[2020.10.09-15.49.19:342][395]CompilerResultsLog: Building StealthEditor...
-[2020.10.09-15.49.19:342][395]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.09-15.49.19:342][395]CompilerResultsLog: Building 6 actions with 6 processes...
-[2020.10.09-15.49.19:342][395]CompilerResultsLog:   [1/6] AIPatrol.cpp
-[2020.10.09-15.49.19:342][395]CompilerResultsLog:   [2/6] AIPatrolController.gen.cpp
-[2020.10.09-15.49.19:342][395]CompilerResultsLog:   [3/6] AIPatrolController.cpp
-[2020.10.09-15.49.19:342][395]CompilerResultsLog:   [4/6] UE4Editor-Stealth-5679.lib
-[2020.10.09-15.49.19:342][395]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-5679.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-5679.exp
-[2020.10.09-15.49.19:342][395]CompilerResultsLog:   [5/6] UE4Editor-Stealth-5679.dll
-[2020.10.09-15.49.19:342][395]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-5679.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-5679.suppressed.exp
-[2020.10.09-15.49.19:342][395]CompilerResultsLog:   [6/6] StealthEditor.target
-[2020.10.09-15.49.19:342][395]CompilerResultsLog: Total time in Parallel executor: 3.56 seconds
-[2020.10.09-15.49.19:342][395]CompilerResultsLog: Total execution time: 10.42 seconds
-[2020.10.09-15.49.19:342][395]LogMainFrame: MainFrame: Module compiling took 10.604 seconds
-[2020.10.09-15.49.19:452][395]LogClass: Could not find existing class AIPatrolController in package /Script/Stealth for HotReload, assuming new class
-[2020.10.09-15.49.19:457][395]LogHotReload: Re-instancing AIPatrolController after hot-reload.
-[2020.10.09-15.49.19:465][395]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2020.10.09-15.49.19:466][395]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2020.10.09-15.49.19:515][395]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3432 classes and 823 folders.
-[2020.10.09-15.49.19:515][395]Display: HotReload took 10.8s.
-[2020.10.09-16.05.57:725][409]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
-[2020.10.09-16.09.10:522][101]Candidate modules for hot reload:
-[2020.10.09-16.09.10:522][101]  Stealth
-[2020.10.09-16.09.10:522][101]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,9301 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
-[2020.10.09-16.09.10:524][101]Warning: Starting HotReload took  0.0s.
-[2020.10.09-16.09.19:326][247]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 8:09:19 PM
-[2020.10.09-16.09.19:326][247]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
-[2020.10.09-16.09.19:326][247]CompilerResultsLog: Parsing headers for StealthEditor
-[2020.10.09-16.09.19:326][247]CompilerResultsLog:   Running UnrealHeaderTool "D:\YProjects\Stealth\Stealth\Stealth.uproject" "D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\StealthEditor\Development\StealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\yhanna\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.10.09-16.09.19:326][247]CompilerResultsLog: Reflection code generated for StealthEditor in 5.8661572 seconds
-[2020.10.09-16.09.19:326][247]CompilerResultsLog: Building StealthEditor...
-[2020.10.09-16.09.19:326][247]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.09-16.09.19:326][247]CompilerResultsLog: Building 7 actions with 6 processes...
-[2020.10.09-16.09.19:326][247]CompilerResultsLog:   [1/7] Stealth.init.gen.cpp
-[2020.10.09-16.09.19:326][247]CompilerResultsLog:   [2/7] AIPatrol.gen.cpp
-[2020.10.09-16.09.19:326][247]CompilerResultsLog:   [3/7] AIPatrol.cpp
-[2020.10.09-16.09.19:326][247]CompilerResultsLog:    D:\YProjects\Stealth\Stealth\Source\Stealth\AIPatrol.cpp(20) : error C2660: 'UPawnSensingComponent::execSetPeripheralVisionAngle': function does not take 1 arguments
-[2020.10.09-16.09.19:326][247]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\Perception/PawnSensingComponent.h(23): note: see declaration of 'UPawnSensingComponent::execSetPeripheralVisionAngle'
-[2020.10.09-16.09.19:326][247]CompilerResultsLog:   [4/7] AIPatrolController.cpp
-[2020.10.09-16.09.19:326][247]LogMainFrame: MainFrame: Module compiling took 8.806 seconds
-[2020.10.09-16.09.19:326][247]Warning: HotReload failed, recompile failed
-[2020.10.09-16.13.18:070][490]Candidate modules for hot reload:
-[2020.10.09-16.13.18:070][490]  Stealth
-[2020.10.09-16.13.18:070][490]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Stealth,3193 StealthEditor Win64 Development -Project="D:/YProjects/Stealth/Stealth/Stealth.uproject" "D:/YProjects/Stealth/Stealth/Stealth.uproject"  -IgnoreJunk]
-[2020.10.09-16.13.18:071][490]Warning: Starting HotReload took  0.0s.
-[2020.10.09-16.13.21:950][905]CompilerResultsLog: New page: Compilation - Oct 9, 2020, 8:13:21 PM
-[2020.10.09-16.13.21:950][905]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\YProjects\Stealth).
-[2020.10.09-16.13.21:950][905]CompilerResultsLog: Building StealthEditor...
-[2020.10.09-16.13.21:950][905]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.10.09-16.13.21:950][905]CompilerResultsLog: Building 4 actions with 6 processes...
-[2020.10.09-16.13.21:950][905]CompilerResultsLog:   [1/4] AIPatrol.cpp
-[2020.10.09-16.13.21:950][905]CompilerResultsLog:   [2/4] UE4Editor-Stealth-3193.lib
-[2020.10.09-16.13.21:950][905]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-3193.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-3193.exp
-[2020.10.09-16.13.21:950][905]CompilerResultsLog:   [3/4] UE4Editor-Stealth-3193.dll
-[2020.10.09-16.13.21:950][905]CompilerResultsLog:      Creating library D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-3193.suppressed.lib and object D:\YProjects\Stealth\Stealth\Intermediate\Build\Win64\UE4Editor\Development\Stealth\UE4Editor-Stealth-3193.suppressed.exp
-[2020.10.09-16.13.21:950][905]CompilerResultsLog:   [4/4] StealthEditor.target
-[2020.10.09-16.13.21:950][905]CompilerResultsLog: Total time in Parallel executor: 3.09 seconds
-[2020.10.09-16.13.21:950][905]CompilerResultsLog: Total execution time: 3.79 seconds
-[2020.10.09-16.13.21:950][905]LogMainFrame: MainFrame: Module compiling took 3.883 seconds
-[2020.10.09-16.13.22:067][905]LogClass: Could not find existing class AIPatrol in package /Script/Stealth for HotReload, assuming new class
-[2020.10.09-16.13.22:067][905]LogClass: Function OnPlayCaught is new.
-[2020.10.09-16.13.22:073][905]LogHotReload: Re-instancing AIPatrol after hot-reload.
-[2020.10.09-16.13.22:080][905]LogContentBrowser: Native class hierarchy updated for 'Stealth' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2020.10.09-16.13.22:081][905]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2020.10.09-16.13.22:131][905]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3432 classes and 823 folders.
-[2020.10.09-16.13.22:131][905]Display: HotReload took  4.1s.
+[2020.10.11-12.26.42:225][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.11-12.26.42:225][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.11-12.26.42:225][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.11-12.26.42:225][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.11-12.26.42:225][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.11-12.26.42:225][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.11-12.26.42:225][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.11-12.26.42:225][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.11-12.26.42:226][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.11-12.26.42:227][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.11-12.26.42:227][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.11-12.26.42:227][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.11-12.26.42:227][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.11-12.26.42:227][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.11-12.26.42:227][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.11-12.26.42:227][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.11-12.26.42:227][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.11-12.26.42:227][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.11-12.26.42:228][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.11-12.26.42:229][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.11-12.26.42:230][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:230][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.11-12.26.42:231][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.11-12.26.42:232][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.11-12.26.42:233][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.11-12.26.42:233][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.11-12.26.42:233][  0]LogHAL: Display: Platform has ~ 24 GB [25587765248 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.11-12.26.42:233][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.11-12.26.42:233][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.11-12.26.42:233][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.11-12.26.42:234][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.11-12.26.42:235][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.11-12.26.42:236][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.11-12.26.42:237][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Scalability.ini]
+[2020.10.11-12.26.42:237][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.11-12.26.42:238][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.11-12.26.42:238][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/YProjects/Stealth/Stealth/Saved/Config/Windows/Engine.ini]
+[2020.10.11-12.26.42:238][  0]LogInit: Computer: WS0184
+[2020.10.11-12.26.42:239][  0]LogInit: User: yhanna
+[2020.10.11-12.26.42:239][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.10.11-12.26.42:239][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.11-12.26.42:239][  0]LogMemory: Memory total: Physical=23.8GB (24GB approx)
+[2020.10.11-12.26.42:239][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.11-12.26.42:239][  0]LogMemory: Process Physical Memory: 114.74 MB used, 114.75 MB peak
+[2020.10.11-12.26.42:239][  0]LogMemory: Process Virtual Memory: 104.46 MB used, 104.46 MB peak
+[2020.10.11-12.26.42:239][  0]LogMemory: Physical Memory: 11189.32 MB used,  13213.07 MB free, 24402.39 MB total
+[2020.10.11-12.26.42:239][  0]LogMemory: Virtual Memory: 5137.65 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.10.11-12.26.45:241][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.11-12.26.48:110][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.11-12.26.48:112][  0]LogInit: Using OS detected language (en-US).
+[2020.10.11-12.26.48:112][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.11-12.26.48:115][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.11-12.26.48:301][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.11-12.27.47:363][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.11-12.27.47:363][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.11-12.27.50:396][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.11-12.27.50:396][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.11-12.27.50:396][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.11-12.27.50:396][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.11-12.27.55:291][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.10.11-12.27.55:291][  0]LogD3D11RHI:       128/0/12201 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.10.11-12.28.44:350][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.11-12.28.44:350][  0]LogD3D11RHI:       0/0/12201 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.11-12.28.44:350][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.11-12.28.44:356][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.11-12.28.44:356][  0]LogD3D11RHI:     GPU DeviceId: 0x3e92 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.11-12.28.44:356][  0]LogWindows: EnumDisplayDevices:
+[2020.10.11-12.28.44:356][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.10.11-12.28.44:356][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:357][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:357][  0]LogWindows:    3. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:357][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:357][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:357][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:357][  0]LogWindows:    7. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:357][  0]LogWindows:    8. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:358][  0]LogWindows:    9. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:358][  0]LogWindows:    10. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:358][  0]LogWindows:    11. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:358][  0]LogWindows:    12. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:358][  0]LogWindows:    13. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:358][  0]LogWindows:    14. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:358][  0]LogWindows:    15. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.11-12.28.44:359][  0]LogWindows: DebugString: PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed PrimaryDriverLocationFailed FoundDriverCount:0 
+[2020.10.11-12.28.44:359][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 630
+[2020.10.11-12.28.44:359][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.11-12.28.44:359][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.11-12.28.44:359][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.10.11-12.28.44:402][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.10.11-12.28.44:403][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.11-12.28.44:403][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.11-12.28.44:411][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.10.11-12.28.45:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.11-12.28.45:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.11-12.28.46:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.11-12.28.46:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.11-12.28.47:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.11-12.28.47:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.11-12.28.47:845][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.11-12.28.48:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.11-12.28.48:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.11-12.28.49:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.11-12.28.49:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.11-12.28.49:977][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.11-12.28.49:977][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.11-12.28.50:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.11-12.28.50:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.11-12.28.50:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.11-12.28.51:164][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.11-12.28.51:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.11-12.28.51:945][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.11-12.28.51:946][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.11-12.28.53:042][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.11-12.29.37:499][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../YProjects/Stealth/Stealth/Intermediate/Shaders/WorkingDirectory/22176/).
+[2020.10.11-12.29.37:499][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yhanna/AppData/Local/Temp/UnrealShaderWorkingDir/D710DF5040C3386DAF3A79887D1073A0/'.
+[2020.10.11-12.29.37:500][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.11-12.29.37:500][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.11-12.29.37:500][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.11-12.29.38:640][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.11-12.29.38:731][  0]LogDerivedDataCache: Loaded boot cache 0.09s 79MB C:/Users/yhanna/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.11-12.29.38:731][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/yhanna/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.11-12.29.38:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../YProjects/Stealth/Stealth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.11-12.29.38:731][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.11-12.29.38:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../YProjects/Stealth/Stealth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.11-12.29.38:731][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.11-12.29.38:745][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.11-12.29.38:745][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.11-12.29.38:745][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.11-12.29.38:748][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yhanna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.11-12.29.38:748][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.11-12.29.38:748][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.11-12.29.38:807][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.11-12.29.38:807][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.11-12.29.39:302][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2020.10.11-12.29.39:628][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.11-12.29.43:640][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.11-12.29.43:641][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.11-12.29.43:641][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.11-12.29.43:641][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.11-12.29.43:641][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.11-12.29.44:046][  0]LogNetVersion: Stealth 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4006609941)
+[2020.10.11-12.29.44:717][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001B640689740), frame # 0
+[2020.10.11-12.29.44:717][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B6415B5080), frame # 0
+[2020.10.11-12.29.44:718][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B641624A00), frame # 0
+[2020.10.11-12.29.44:765][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.042157 seconds
+[2020.10.11-12.29.44:771][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.11-12.29.44:771][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.11-12.29.44:771][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.11-12.30.13:142][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.11-12.30.13:531][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.11-12.30.20:871][  0]SourceControl: Source control is disabled
+[2020.10.11-12.30.20:871][  0]SourceControl: Source control is disabled
+[2020.10.11-12.30.21:257][  0]SourceControl: Source control is disabled
+[2020.10.11-12.30.21:639][  0]SourceControl: Source control is disabled
+[2020.10.11-12.30.22:426][  0]SourceControl: Source control is disabled
+[2020.10.11-12.30.52:759][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.11-12.30.55:055][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.11-12.30.55:055][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.11-12.30.58:149][  0]LogOcInput: OculusInput pre-init called
+[2020.10.11-12.30.58:916][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.11-12.30.58:917][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.11-12.31.01:659][  0]LogEngine: Initializing Engine...
+[2020.10.11-12.31.01:660][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.11-12.31.01:661][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.11-12.31.01:662][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.11-12.31.01:798][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.11-12.31.02:195][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.11-12.31.02:195][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B642CBFC00), frame # 0
+[2020.10.11-12.31.02:195][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B642D89580), frame # 0
+[2020.10.11-12.31.02:701][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.11-12.31.02:701][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.11-12.31.02:701][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.11-12.31.02:701][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.11-12.31.02:701][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.11-12.31.02:701][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.11-12.31.02:701][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.11-12.31.02:701][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.11-12.31.02:702][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.11-12.31.02:702][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.11-12.31.38:596][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.11-12.31.38:596][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.11-12.35.15:814][  0]LogAudioMixer: Display: Using Audio Device Remote Audio
+[2020.10.11-12.35.15:819][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.11-12.35.15:823][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.11-12.35.15:823][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.11-12.35.15:825][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.11-12.35.15:828][  0]LogInit: FAudioDevice initialized.
+[2020.10.11-12.35.15:828][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.11-12.35.15:898][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/yhanna/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.11-12.35.15:899][  0]LogInit: Texture streaming: Enabled
+[2020.10.11-12.35.18:182][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.11-12.35.18:182][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.11-12.35.18:185][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.11-12.35.19:084][  0]LogInit: Transaction tracking system initialized
+[2020.10.11-12.35.22:138][  0]BlueprintLog: New page: Editor Load
